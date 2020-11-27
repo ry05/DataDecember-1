@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+# Welcome to #DataDecember
+
+We know you love data! And we believe you must have the happiest start in your journey into data science. Say hello to #DataDecember, a 30-day initiative by LSE’s Data Science Society to provide high-quality, beginner-friendly material to pick up data science concepts.
 
 You can use the [editor on GitHub](https://github.com/dsatlse/DataDecember/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
