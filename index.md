@@ -18,7 +18,7 @@ The #DataDecember campaign will be run throughout the month of December. We shal
 
 To take part, all you need to do is follow 3 simple steps:
 
-1. Follow LSE Data Science Society on our social media channels(links to be given) if you are not already
+1. Follow LSE Data Science Society on our social media channels([check here](https://www.canva.com/design/DAEOnf6RnOA/LghQr0ctg-fa3p-A2TO9Ig/view)) if you are not already
 2. Keep an eye-out on the daily content releases on this official website maintained by the society
 3. Update your daily/weekly progress on social media using the hashtag #DataDecember
 
