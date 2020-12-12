@@ -22,7 +22,7 @@ To take part, all you need to do is follow 3 simple steps:
 2. Keep an eye-out on the daily content releases on this official website maintained by the society
 3. Update your daily/weekly progress on social media using the hashtag #DataDecember
 
-### ## Contributors
+## Contributors
 
 #DataDecember has been conceived, operationalized and fueled by the data-related interests of some of us at the society. We would love to have a chat with you if you are interested!
 
