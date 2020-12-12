@@ -1,2 +1,2 @@
 # DataDecember
-30 days as a Data Science Beginner
+Learning and practicing data science, together!
