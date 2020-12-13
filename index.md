@@ -29,3 +29,27 @@ To take part, all you need to do is follow 3 simple steps:
 ```markdown
 List of contributors will be up here soon :)
 ```
+
+## Day 1: What is Data Science?
+
+*Author: Ramshankar Yadhunath*  
+
+> "Data scientists are kind of like the new Renaissance folks, because data science is inherently multidisciplinary" - John Foreman
+
+In this pilot article for #DataDecember, let’s address the elephant in the room – *What is data science?*
+
+First, let’s understand what is meant by “data”. Data is essentially a set of characteristics about a particular observation. This observation could be anything that is uniquely identifiable, for example a person or an organization. Think of it like this – When you watch a movie on an over-the-top (OTT) platform, you essentially are acting as an observation and the genres you like watching could be one of your characteristics.
+
+Now, let’s take the idea a level higher. What if the platform wanted to provide you with recommendations that you would want to see? This is where data science begins to show itself. Data about your watching patterns could be analyzed and used to predict how likely you would be to love a new movie X. Based on this, your recommendation list could be created. Sounds easy enough?
+
+A formal definition of data science that is universally accepted is non-existent. However, most of the definitions out there are closely related. For the sake of simplicity, let’s just think of data science as an *intersection of statistical skills, computing skills and domain knowledge*. While the first two are easy to understand, domain knowledge is not intuitively understood, especially if you are a beginner. Domain knowledge is the knowledge about the kind of data you are working with, including topics such as its origin and the meaning it contributes to the “problem”. The problem refers to the “what you want to achieve” part of your data science project.
+
+**What the beginner thinks**  
+Woah! So many articles defining data science in different ways. This is stressful! How do I know what I am learning?
+
+If this sounds like you, don’t worry. This is how every beginner sounds like. Do not bother too much about the definition, unless clear definitions are indispensable parts of what you do. In the simplest sense, think of data science as an endeavour to convert data to value.
+
+**References**  
+1. [Science and data science | PNAS](https://www.pnas.org/content/114/33/8689)
+2. [The Data Science Venn Diagram — Drew Conway](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)
+3. [Is Data Science A Real Science?. As I hear criticisms about how data… | by Ludovic Benistant | Towards Data Science](https://towardsdatascience.com/is-data-science-a-real-science-2920bb2529aa)
