@@ -45,6 +45,7 @@ Now, let’s take the idea a level higher. What if the platform wanted to provid
 A formal definition of data science that is universally accepted is non-existent. However, most of the definitions out there are closely related. For the sake of simplicity, let’s just think of data science as an *intersection of statistical skills, computing skills and domain knowledge*. While the first two are easy to understand, domain knowledge is not intuitively understood, especially if you are a beginner. Domain knowledge is the knowledge about the kind of data you are working with, including topics such as its origin and the meaning it contributes to the “problem”. The problem refers to the “what you want to achieve” part of your data science project.
 
 **What the beginner thinks**  
+
 Woah! So many articles defining data science in different ways. This is stressful! How do I know what I am learning?
 
 If this sounds like you, don’t worry. This is how every beginner sounds like. Do not bother too much about the definition, unless clear definitions are indispensable parts of what you do. In the simplest sense, think of data science as an endeavour to convert data to value.
