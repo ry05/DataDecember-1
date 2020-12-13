@@ -51,6 +51,6 @@ Woah! So many articles defining data science in different ways. This is stressfu
 If this sounds like you, don’t worry. This is how every beginner sounds like. Do not bother too much about the definition, unless clear definitions are indispensable parts of what you do. In the simplest sense, think of data science as an endeavour to convert data to value.
 
 **References**  
-1. [Science and data science | PNAS](https://www.pnas.org/content/114/33/8689)
-2. [The Data Science Venn Diagram — Drew Conway](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)
-3. [Is Data Science A Real Science?. As I hear criticisms about how data… | by Ludovic Benistant | Towards Data Science](https://towardsdatascience.com/is-data-science-a-real-science-2920bb2529aa)
+1. [Science and data science - PNAS](https://www.pnas.org/content/114/33/8689)
+2. [The Data Science Venn Diagram - Drew Conway](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)
+3. [Is Data Science A Real Science?. As I hear criticisms about how data… by Ludovic Benistant - Towards Data Science](https://towardsdatascience.com/is-data-science-a-real-science-2920bb2529aa)
