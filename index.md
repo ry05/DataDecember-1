@@ -54,3 +54,27 @@ If this sounds like you, don’t worry. This is how every beginner sounds like. 
 1. [Science and data science - PNAS](https://www.pnas.org/content/114/33/8689)
 2. [The Data Science Venn Diagram - Drew Conway](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)
 3. [Is Data Science A Real Science?. As I hear criticisms about how data… by Ludovic Benistant - Towards Data Science](https://towardsdatascience.com/is-data-science-a-real-science-2920bb2529aa)
+
+## Day 2: The Relevance of Data Science Today
+
+*Author: Maja Lie*
+
+> "We can only see a short distance ahead, but we can see plenty there that needs to be done" - Alan Turing
+
+The idea of being able to see ahead is a powerful one. Psychologically, humans are not designed to think very long term, so the ability to use data analysis techniques to develop models that can give us some notion of what might occur in the future is extremely useful. That is what data science helps to accomplish. Data science is important because it enables us to take data that is not necessarily interesting on its own and pairs us with tools and methods to transform this data into something insightful. However, not all data science models need to be predictive ones; descriptive models can be useful for identifying why a certain product is not selling as well at a company. 
+
+In today’s world, data science is increasingly relevant as the amount of data companies, websites, and other organisations collect on us is exploding. The rise of the internet has led to the easy and rapid collection of people’s personal data: banking information, geographical location, and even what websites and products you click on. This information can drive important business questions. For example, analysing what products are often bought together at a grocery store might influence your local Tesco to change their store layout. If you think about it, data science changes the world around you everywhere. Next time you’re in a store or shopping online, think about how your information might have been used to design a better experience for you as a customer or how advertisements are catered to you. 
+
+Because of how powerful data science can be in driving insights which, in turn, often drive profits, the demand for data scientists is high. Even a small amount of knowledge on the subject is desirable and attractive to employers! As students, we are in the perfect time to learn these skills for our future, which is why data science has become such a big buzzword. 
+
+**What the beginner thinks**
+
+Data science is a big, scary buzzword that gets thrown around a lot. What does it actually mean? Do I really need to learn it or is this a trend that is just going to disappear eventually?
+
+As a beginner, I thought all of these things when I first started. The truth is, data science really is important in shaping the world around you. Once I started learning about it, I even noticed it changed how I thought about everyday things. I recommend reading a few articles about real applications to see just how important it truly is. One example is targeted advertising. The next time you go online, take note of what you click on and how advertisements change afterwards. Last week, I bought a Christmas sweater and now my advertisements consist of other Christmas sweaters and clothing. When I was on a health kick, advertisements for different diets and gym clothing were more prevalent. These are small, but important ways in which data science impacts us.
+
+**References**
+1. [Why Data Science matters](https://medium.com/sequoia-capital/why-data-science-matters-ee583f785a55)
+2. [Using Data Science to Predict Alzheimer’s Risk](https://www.biospace.com/article/ibm-and-pfizer-believe-machine-learning-can-predict-alzheimer-s-risk)
+3. [Data Scientist: The Sexiest Job of the 21st Century](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century)
+
