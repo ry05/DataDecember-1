@@ -78,3 +78,11 @@ As a beginner, I thought all of these things when I first started. The truth is,
 2. [Using Data Science to Predict Alzheimer’s Risk](https://www.biospace.com/article/ibm-and-pfizer-believe-machine-learning-can-predict-alzheimer-s-risk)
 3. [Data Scientist: The Sexiest Job of the 21st Century](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century)
 
+## Day 3: The Different Components of Data Science
+
+*Author: Ramshankar Yadhunath*
+
+> "The future belongs to those who learn more skills and combine them in creative ways" - Robert Green
+
+In today’s article, let’s explore the different components of data science. In the pilot article, “What is data science?”, we came across the idea that data science is an intersection of stats, coding and domain knowledge. This idea in fact has been adopted from Drew Conway’s representation of data science - The famous data science venn diagram.
+
