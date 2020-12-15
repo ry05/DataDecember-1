@@ -89,6 +89,7 @@ In today’s article, let’s explore the different components of data science. 
 ![](venn.png)
 <center>Fig 1. The data science venn diagram<a href="http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram">(Source)</a></center>
 
+
 According to this representation, data science is a combination of 
 * Hacking skills: This helps manipulate all kinds of data, think algorithmically and use computing resources to deal with large amounts of data
 * Math and Statistics Knowledge: The tools required to understand the data and extract meaningful insights from it
