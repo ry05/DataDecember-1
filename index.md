@@ -86,3 +86,27 @@ As a beginner, I thought all of these things when I first started. The truth is,
 
 In today’s article, let’s explore the different components of data science. In the pilot article, “What is data science?”, we came across the idea that data science is an intersection of stats, coding and domain knowledge. This idea in fact has been adopted from Drew Conway’s representation of data science - The famous data science venn diagram.
 
+![](venn.png)
+<center>Fig 1. The data science venn diagram<a href="http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram">(Source)</a></center>
+
+According to this representation, data science is a combination of 
+* Hacking skills: This helps manipulate all kinds of data, think algorithmically and use computing resources to deal with large amounts of data
+* Math and Statistics Knowledge: The tools required to understand the data and extract meaningful insights from it
+* Substantive Expertise: The domain-related knowledge that would help make sense of the insights generated in context to the problem being pursued
+
+Having said that, it is now time to address the limitations of this venn diagram representation. A couple of these are:
+* The venn diagram does not take into consideration the necessity of soft skills in data science [(Source)](https://towardsdatascience.com/why-the-data-science-venn-diagram-is-misleading-16751f852063)
+* The venn diagram is not an accurate representation of data science in business [(Source)](https://www.linkedin.com/pulse/why-data-science-venn-diagram-wrong-kees-groeneveld/)
+
+If you are interested in further abstractions concerning a definition of data science, [this article](https://www.kdnuggets.com/2016/10/battle-data-science-venn-diagrams.html) could be of help. 
+
+**What the beginner thinks**
+
+So much to learn! How am I going to come to terms with all these multiple components I need? 
+
+It’s very common to think this way. But the idea must be to not bother too much about such abstractions. In practice, you essentially only need to know a good deal of statistics, coding ability, domain knowledge and the most important, the drive to deliver value. While the first 2 can be covered through traditional learning, the last 2 will require you to be driven and passionate about the work you are doing. 
+
+**References**
+
+1. [The Data Science Venn Diagram](https://s3.amazonaws.com/aws.drewconway.com/viz/venn_diagram/data_science.html)
+2. [The Essential Data Science Venn Diagram by Andrew Silver - Towards Data Science](https://towardsdatascience.com/the-essential-data-science-venn-diagram-35800c3bef40)
