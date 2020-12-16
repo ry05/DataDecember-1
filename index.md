@@ -168,3 +168,13 @@ Here are some common terms you are most likely to encounter in your data science
 ***Overfitting:*** Happens when a model considers too much information from its training data that it fails to predict new data reliably  
 ***Model Deployment:*** Applying the model to real data to form a use case  
 
+**What the beginner thinks**
+
+It can feel intimidating to have so many new terms to learn! Don’t worry about having to remember or fully understand these definitions right away. Machine learning models are, after all, just “thing labellers''. Learning the meanings of these words will help you get through your first data science book or online course. But more importantly, it’s what you do with this new knowledge that matters. By the end of your first project, you’ll have come across these terms so often that you’ll be able to come up with your own analogies to explain them to other data science beginners. I’ll leave you with one of my favourite videos explaining the [concept of machine learning with the analogy of using a microwave to make pizza](https://www.youtube.com/watch?v=KRvjGYIdJrg). Happy coding, young padawan! 
+
+**References**
+
+1. [Data Science Terms and Jargon: A Glossary](https://www.dataquest.io/blog/data-science-glossary/)
+2. [25 Terms Every Data Scientist Should Know](https://blog.coursera.org/ds-academy-25-data-science-terms/)
+3. [Glossary of Terms Journal of Machine Learning](http://robotics.stanford.edu/~ronnyk/glossary.html)
+
