@@ -111,3 +111,60 @@ It’s very common to think this way. But the idea must be to not bother too muc
 
 1. [The Data Science Venn Diagram](https://s3.amazonaws.com/aws.drewconway.com/viz/venn_diagram/data_science.html)
 2. [The Essential Data Science Venn Diagram by Andrew Silver - Towards Data Science](https://towardsdatascience.com/the-essential-data-science-venn-diagram-35800c3bef40)
+
+## Day 4: Common Terms You Would Encounter in Your Data Journey
+
+*Author: Zhen-Yen Chan*
+
+> "Don’t be intimidated by jargon. For example, a model is just a fancy word for 'recipe'." - Cassie Kozyrkov
+
+Here are some common terms you are most likely to encounter in your data science journey! These definitions are written for beginners who have little previous exposure to the world of statistics and programming. 
+
+**Fundamentals**  
+***Algorithm:*** A set of instructions we give a computer so it can turn a given set of inputs into corresponding outputs.  
+***Data Mining / Data Analytics:*** The process of extracting insights from data and putting it to good use. This includes everything from cleaning and organising the data; to analysing it to find meaningful patterns and connections; to communicating those connections in a way that helps decision-makers improve their product or organisation.  
+***Machine Learning:*** The process where a system learns from a set of data by studying patterns between inputs and outputs in that data, and then applies those patterns to make predictions with new input data.  
+***Dataset:*** A collection of data that is used in a particular data science initiative.  
+***Data Science Model:*** A structure and corresponding interpretation that summarises a set of data, for description or prediction.  
+
+**Data Science Tools**  
+***R:*** A programming language for statistical computing that is widely used for statistical modelling and data analysis  
+***Python:*** A general-purpose programming language that can also be used for data science and machine learning  
+***SQL:*** A programming language used to update and retrieve data from a database  
+***GitHub:*** A code-sharing and publishing service, and community for developers which provides collaboration features for programming projects  
+***Google Colab:*** A programming notebook tool that allows people to write and execute Python code through the browser, and is especially suitable for data science and machine learning  
+
+**Types of Data**  
+***Continuous Data:*** Data that exist as a subset of real numbers, where there is measurable difference between possible values e.g. height, price  
+***Categorical Data:*** Data that exist as a finite number of discrete values  
+***Time Series:*** A set of data that is ordered by when each data point occurred, for example temperature throughout a day  
+***Instance (example, record, observation):*** A single object from the world from which a model will learn from   
+***Feature (attribute, field, variable):*** A quantity describing an instance  
+***Outcome (label):*** A dependent variable that the model is used to predict  
+***Missing Values:*** Values of a feature that are not known or do not exist  
+
+**Statistical Tools**  
+***Correlation:*** The measure of how much one set of values depends on another. If values increase together, they are positively correlated. If values from one set increases as the other decreases, they are negatively correlated. There is no correlation when a change in one set has nothing to do with a change in the other.  
+***Outlier:*** A data point that is considered extremely far from other points  
+***Summary Statistics:*** The measures we use to communicate insights about our data in a simple way. Examples of summary statistics are the mean, median and standard deviation.  
+
+**Machine Learning Techniques**  
+***Supervised Learning:*** A type of machine learning used to learn the relationship between independent variables and a specified outcome  
+***Regression:*** a supervised learning problem where the outcome is continuous  
+***Classification:*** a supervised learning problem where the outcome is categorical  
+***Unsupervised Learning:*** A type of machine learning used to group data without a pre-specified outcome  
+***Clustering:*** an unsupervised learning problem which attempts to collect and categorise sets of data into groups that are similar to one another   
+***Deep Learning:*** A type of machine learning that uses neural networks to solve complex problems, such as natural language processing (analysing text) and computer vision (analysing images)  
+
+**Stages of a Data Science Project**  
+***Extract, Transform, Load (ETL, data engineering):*** The process of gathering data from different places in a raw form and changing it into a form that is ready for analysis  
+***Data Cleaning / Wrangling:*** The process of manipulating data to make it usable for your project, for example making values consistent with a larger dataset, removing or replacing missing and incorrect values  
+***Data Exploration:*** The step where you ask basic questions to understand the context of a dataset, for example by displaying summary statistics and plotting a correlation matrix  
+***Data Visualisation:*** The art of communicating meaningful data visually. This can involve infographics, traditional plots, or even interactive dashboards.  
+
+***Feature Engineering:*** The process of translating knowledge we have as humans and translating it into a quantitative value that a computer can understand. For example, we can translate our visual understanding of the image of a mug into a representation of pixel intensities.  
+***Training and Testing:*** When building predictive models, you first train the model on training data so that it can build understanding. Then, you test the model on test data where it applies its understanding and makes predictions.  
+***Feature Selection:*** The process of identifying which features are the most valuable when building a model.  
+***Overfitting:*** Happens when a model considers too much information from its training data that it fails to predict new data reliably  
+***Model Deployment:*** Applying the model to real data to form a use case  
+
