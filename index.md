@@ -161,7 +161,6 @@ Here are some common terms you are most likely to encounter in your data science
 ***Data Cleaning / Wrangling:*** The process of manipulating data to make it usable for your project, for example making values consistent with a larger dataset, removing or replacing missing and incorrect values  
 ***Data Exploration:*** The step where you ask basic questions to understand the context of a dataset, for example by displaying summary statistics and plotting a correlation matrix  
 ***Data Visualisation:*** The art of communicating meaningful data visually. This can involve infographics, traditional plots, or even interactive dashboards.  
-
 ***Feature Engineering:*** The process of translating knowledge we have as humans and translating it into a quantitative value that a computer can understand. For example, we can translate our visual understanding of the image of a mug into a representation of pixel intensities.  
 ***Training and Testing:*** When building predictive models, you first train the model on training data so that it can build understanding. Then, you test the model on test data where it applies its understanding and makes predictions.  
 ***Feature Selection:*** The process of identifying which features are the most valuable when building a model.  
