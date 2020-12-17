@@ -121,6 +121,7 @@ It’s very common to think this way. But the idea must be to not bother too muc
 Here are some common terms you are most likely to encounter in your data science journey! These definitions are written for beginners who have little previous exposure to the world of statistics and programming. 
 
 **Fundamentals**  
+
 ***Algorithm:*** A set of instructions we give a computer so it can turn a given set of inputs into corresponding outputs.  
 ***Data Mining / Data Analytics:*** The process of extracting insights from data and putting it to good use. This includes everything from cleaning and organising the data; to analysing it to find meaningful patterns and connections; to communicating those connections in a way that helps decision-makers improve their product or organisation.  
 ***Machine Learning:*** The process where a system learns from a set of data by studying patterns between inputs and outputs in that data, and then applies those patterns to make predictions with new input data.  
@@ -128,6 +129,7 @@ Here are some common terms you are most likely to encounter in your data science
 ***Data Science Model:*** A structure and corresponding interpretation that summarises a set of data, for description or prediction.  
 
 **Data Science Tools**  
+
 ***R:*** A programming language for statistical computing that is widely used for statistical modelling and data analysis  
 ***Python:*** A general-purpose programming language that can also be used for data science and machine learning  
 ***SQL:*** A programming language used to update and retrieve data from a database  
@@ -135,6 +137,7 @@ Here are some common terms you are most likely to encounter in your data science
 ***Google Colab:*** A programming notebook tool that allows people to write and execute Python code through the browser, and is especially suitable for data science and machine learning  
 
 **Types of Data**  
+
 ***Continuous Data:*** Data that exist as a subset of real numbers, where there is measurable difference between possible values e.g. height, price  
 ***Categorical Data:*** Data that exist as a finite number of discrete values  
 ***Time Series:*** A set of data that is ordered by when each data point occurred, for example temperature throughout a day  
@@ -144,11 +147,13 @@ Here are some common terms you are most likely to encounter in your data science
 ***Missing Values:*** Values of a feature that are not known or do not exist  
 
 **Statistical Tools**  
+
 ***Correlation:*** The measure of how much one set of values depends on another. If values increase together, they are positively correlated. If values from one set increases as the other decreases, they are negatively correlated. There is no correlation when a change in one set has nothing to do with a change in the other.  
 ***Outlier:*** A data point that is considered extremely far from other points  
 ***Summary Statistics:*** The measures we use to communicate insights about our data in a simple way. Examples of summary statistics are the mean, median and standard deviation.  
 
 **Machine Learning Techniques**  
+
 ***Supervised Learning:*** A type of machine learning used to learn the relationship between independent variables and a specified outcome  
 ***Regression:*** a supervised learning problem where the outcome is continuous  
 ***Classification:*** a supervised learning problem where the outcome is categorical  
@@ -157,6 +162,7 @@ Here are some common terms you are most likely to encounter in your data science
 ***Deep Learning:*** A type of machine learning that uses neural networks to solve complex problems, such as natural language processing (analysing text) and computer vision (analysing images)  
 
 **Stages of a Data Science Project**  
+
 ***Extract, Transform, Load (ETL, data engineering):*** The process of gathering data from different places in a raw form and changing it into a form that is ready for analysis  
 ***Data Cleaning / Wrangling:*** The process of manipulating data to make it usable for your project, for example making values consistent with a larger dataset, removing or replacing missing and incorrect values  
 ***Data Exploration:*** The step where you ask basic questions to understand the context of a dataset, for example by displaying summary statistics and plotting a correlation matrix  
@@ -177,3 +183,31 @@ It can feel intimidating to have so many new terms to learn! Don’t worry about
 2. [25 Terms Every Data Scientist Should Know](https://blog.coursera.org/ds-academy-25-data-science-terms/)
 3. [Glossary of Terms Journal of Machine Learning](http://robotics.stanford.edu/~ronnyk/glossary.html)
 
+## Day 5: Data Science in the Real World
+
+*Author: Maja Lie*
+
+> "Work gives you meaning and purpose, and life is empty without it" - Stephen Hawking
+
+In today's content, let's dive into where data science is used currently and provide a few examples about the kind of high impact value that this field can deliver. Here are 3 short cases:
+
+***Covid-19***  
+Data science was behind many of the public health mandates that have risen out of the Covid-19 crisis; for example, decisions to lock down, wear masks, and social distance were made from analyses done on huge data sets about covid transmission rates and the behaviour of people worldwide. Data science models can allow us to predict how the virus might spread and which areas are most vulnerable. This allows us to prepare PPE ahead of time for these areas so the impact of the virus can be mitigated. The biggest challenge in these analyses is linking the data together in a meaningful way from several different sources.
+
+***London Transport***  
+We’ve all been in an overcrowded Tube car during rush hour, but believe it or not, TfL does actively try to use data science to reduce this issue. Data scientists at TfL use ticketing data from entrances and exits at Tube stops to see how people use the transportation network. This data can be used to determine what stops are the most popular, what the busiest times are at each stop, and even how ridership changes due to weather. Using this information, TfL can then use this information to determine how frequent lines run and other design mechanisms to alleviate wait times and overcrowding. 
+
+***Stock Market***  
+Lots of things can impact the stock market: news headlines, natural disasters, political atmosphere, etc. Data science is frequently used to do time series analysis about the trend of the stock market over time. In more sophisticated models, we can even predict how stocks will respond to specific news. We can also use classification models in data science to decide if a stock is a good investment or not based on certain criteria(like P/E ratio). 
+
+Now, data science is not limited to a specific dicsipline at all. Remember from day 1 that "domain knowledge" is an integral part of data science? This domain knowledge is nothing but *what you need to know about an area you are going to work on*!
+
+**What the beginner thinks**
+
+When I was a beginner, I was interested in cryptography, health economics, and education policies. My first thought when I was beginning to learn data science was: how can I apply this to an area of my interest? My recommendation is to think about your interests and how data science might fit into them, then look up a few articles related to it. It might reignite your interest in both the subject and data science!
+
+**References**
+
+1. [OxCovid19 Project](https://covid19.eng.ox.ac.uk/)
+2. [How TfL is using data science to reduce station overcrowding and closures](https://diginomica.com/how-tfl-using-data-science-reduce-station-overcrowding-and-closures)
+3. [How to Use Data Science on the Stock Market](https://towardsdatascience.com/how-to-use-data-science-on-the-stock-market-9d97a4d348d6)
