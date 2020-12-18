@@ -214,7 +214,7 @@ Descriptive statistics is helpful to understand key features of your data set. I
 
 Similary, there are many other descriptive analyses you can do, but the important thing is you should do them. Doing this before starting a project can reveal information about your data that might influence the type of model you decide to create or give you an idea of what the most suitable analysis would be. 
 
-**What the beginner thinks** 
+**What the beginner thinks**  
 *I know what a mean is!* As a beginner, you probably already know quite a bit of descriptive statistics without realising it. A great refresher would be to refamiliarise yourself with the definitions of mean, standard deviation, and the properties of important distributions. Check out ST202 at LSE! Or the internet has endless resources and beginners’ courses that are short and quick. 
 
 **References**
