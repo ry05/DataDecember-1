@@ -4,7 +4,7 @@ We know you love data! And we believe you must have a comfortable start in your 
 
 **We value your time as much as we value ours**. That means our resources will not involve articles that lack an important learning point. Also, all the material we provide will be what we have already learnt from and summarised. So, you actually are learning from other learners who are able to identify the exact roadblocks you might hit as beginners. 
 
-## The Philosophy of #DataDecember
+**The Philosophy of #DataDecember**
 
 At the society, we strive to build a community of data science enthusiasts with the help of active, hands-on learning for students at LSE. This December we wish to revisit fundamental theory, infuse it with hands-on resources and explain relevant concepts as how a beginner would like to perceive it. Being a beginner does pose obvious challenges such as being overwhelmed by the sheer expanse of topics to cover, the ever-persistent impostor syndrome, spurious knowledge and confusion induced by online articles. A good way to tackle these challenges could be to start learning together as a community, guided by steps figured out by fellow beginners and experts alike. 
 
@@ -12,7 +12,7 @@ Through #DataDecember, we hope to cultivate a data movement that could help begi
 
 As Rachel Thomas, co-founder of fast.ai puts it, [“You are best positioned to help people one step behind you”](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045). The #DataDecember is our way of believing in that notion and giving back to the constantly evolving and ever-energetic data science community!
 
-## How to take part in #DataDecember
+**How to take part in #DataDecember**
 
 The #DataDecember campaign will be run throughout the month of December. We shall continue to post our content here everyday and also engage through our social media handles. You could make things more interesting by engaging with the hashtag on social media and thus contribute to the nest big social media hashtag of our times!
 
@@ -22,7 +22,7 @@ To take part, all you need to do is follow 3 simple steps:
 2. Keep an eye-out on the daily content releases on this official website maintained by the society
 3. Update your daily/weekly progress on social media using the hashtag #DataDecember
 
-## Contributors
+**Contributors**
 
 #DataDecember has been conceived, operationalized and fueled by the data-related interests of some of us at the society. We would love to have a chat with you if you are interested!
 
@@ -30,7 +30,9 @@ To take part, all you need to do is follow 3 simple steps:
 List of contributors will be up here soon :)
 ```
 
-## Day 1: What is Data Science?
+## Week 1: Data Science Fundamentals
+
+**Day 1: What is Data Science?**
 
 *Author: Ramshankar Yadhunath*  
 
@@ -45,7 +47,6 @@ Now, let’s take the idea a level higher. What if the platform wanted to provid
 A formal definition of data science that is universally accepted is non-existent. However, most of the definitions out there are closely related. For the sake of simplicity, let’s just think of data science as an *intersection of statistical skills, computing skills and domain knowledge*. While the first two are easy to understand, domain knowledge is not intuitively understood, especially if you are a beginner. Domain knowledge is the knowledge about the kind of data you are working with, including topics such as its origin and the meaning it contributes to the “problem”. The problem refers to the “what you want to achieve” part of your data science project.
 
 **What the beginner thinks**  
-
 Woah! So many articles defining data science in different ways. This is stressful! How do I know what I am learning?
 
 If this sounds like you, don’t worry. This is how every beginner sounds like. Do not bother too much about the definition, unless clear definitions are indispensable parts of what you do. In the simplest sense, think of data science as an endeavour to convert data to value.
@@ -55,7 +56,7 @@ If this sounds like you, don’t worry. This is how every beginner sounds like. 
 2. [The Data Science Venn Diagram - Drew Conway](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram)
 3. [Is Data Science A Real Science?. As I hear criticisms about how data… by Ludovic Benistant - Towards Data Science](https://towardsdatascience.com/is-data-science-a-real-science-2920bb2529aa)
 
-## Day 2: The Relevance of Data Science Today
+**Day 2: The Relevance of Data Science Today**
 
 *Author: Maja Lie*
 
@@ -67,8 +68,7 @@ In today’s world, data science is increasingly relevant as the amount of data 
 
 Because of how powerful data science can be in driving insights which, in turn, often drive profits, the demand for data scientists is high. Even a small amount of knowledge on the subject is desirable and attractive to employers! As students, we are in the perfect time to learn these skills for our future, which is why data science has become such a big buzzword. 
 
-**What the beginner thinks**
-
+**What the beginner thinks**  
 Data science is a big, scary buzzword that gets thrown around a lot. What does it actually mean? Do I really need to learn it or is this a trend that is just going to disappear eventually?
 
 As a beginner, I thought all of these things when I first started. The truth is, data science really is important in shaping the world around you. Once I started learning about it, I even noticed it changed how I thought about everyday things. I recommend reading a few articles about real applications to see just how important it truly is. One example is targeted advertising. The next time you go online, take note of what you click on and how advertisements change afterwards. Last week, I bought a Christmas sweater and now my advertisements consist of other Christmas sweaters and clothing. When I was on a health kick, advertisements for different diets and gym clothing were more prevalent. These are small, but important ways in which data science impacts us.
@@ -78,7 +78,7 @@ As a beginner, I thought all of these things when I first started. The truth is,
 2. [Using Data Science to Predict Alzheimer’s Risk](https://www.biospace.com/article/ibm-and-pfizer-believe-machine-learning-can-predict-alzheimer-s-risk)
 3. [Data Scientist: The Sexiest Job of the 21st Century](https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century)
 
-## Day 3: The Different Components of Data Science
+**Day 3: The Different Components of Data Science**
 
 *Author: Ramshankar Yadhunath*
 
@@ -88,7 +88,6 @@ In today’s article, let’s explore the different components of data science. 
 
 ![](venn.png)
 <center>Fig 1. The data science venn diagram<a href="http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram">(Source)</a></center>
-
 
 According to this representation, data science is a combination of 
 * Hacking skills: This helps manipulate all kinds of data, think algorithmically and use computing resources to deal with large amounts of data
@@ -101,18 +100,16 @@ Having said that, it is now time to address the limitations of this venn diagram
 
 If you are interested in further abstractions concerning a definition of data science, [this article](https://www.kdnuggets.com/2016/10/battle-data-science-venn-diagrams.html) could be of help. 
 
-**What the beginner thinks**
-
+**What the beginner thinks**  
 So much to learn! How am I going to come to terms with all these multiple components I need? 
 
 It’s very common to think this way. But the idea must be to not bother too much about such abstractions. In practice, you essentially only need to know a good deal of statistics, coding ability, domain knowledge and the most important, the drive to deliver value. While the first 2 can be covered through traditional learning, the last 2 will require you to be driven and passionate about the work you are doing. 
 
 **References**
-
 1. [The Data Science Venn Diagram](https://s3.amazonaws.com/aws.drewconway.com/viz/venn_diagram/data_science.html)
 2. [The Essential Data Science Venn Diagram by Andrew Silver - Towards Data Science](https://towardsdatascience.com/the-essential-data-science-venn-diagram-35800c3bef40)
 
-## Day 4: Common Terms You Would Encounter in Your Data Journey
+**Day 4: Common Terms You Would Encounter in Your Data Journey**
 
 *Author: Zhen-Yen Chan*
 
@@ -120,7 +117,7 @@ It’s very common to think this way. But the idea must be to not bother too muc
 
 Here are some common terms you are most likely to encounter in your data science journey! These definitions are written for beginners who have little previous exposure to the world of statistics and programming. 
 
-**Fundamentals**  
+***Fundamentals***  
 
 ***Algorithm:*** A set of instructions we give a computer so it can turn a given set of inputs into corresponding outputs.  
 ***Data Mining / Data Analytics:*** The process of extracting insights from data and putting it to good use. This includes everything from cleaning and organising the data; to analysing it to find meaningful patterns and connections; to communicating those connections in a way that helps decision-makers improve their product or organisation.  
@@ -128,7 +125,7 @@ Here are some common terms you are most likely to encounter in your data science
 ***Dataset:*** A collection of data that is used in a particular data science initiative.  
 ***Data Science Model:*** A structure and corresponding interpretation that summarises a set of data, for description or prediction.  
 
-**Data Science Tools**  
+***Data Science Tools***  
 
 ***R:*** A programming language for statistical computing that is widely used for statistical modelling and data analysis  
 ***Python:*** A general-purpose programming language that can also be used for data science and machine learning  
@@ -136,7 +133,7 @@ Here are some common terms you are most likely to encounter in your data science
 ***GitHub:*** A code-sharing and publishing service, and community for developers which provides collaboration features for programming projects  
 ***Google Colab:*** A programming notebook tool that allows people to write and execute Python code through the browser, and is especially suitable for data science and machine learning  
 
-**Types of Data**  
+***Types of Data***  
 
 ***Continuous Data:*** Data that exist as a subset of real numbers, where there is measurable difference between possible values e.g. height, price  
 ***Categorical Data:*** Data that exist as a finite number of discrete values  
@@ -146,13 +143,13 @@ Here are some common terms you are most likely to encounter in your data science
 ***Outcome (label):*** A dependent variable that the model is used to predict  
 ***Missing Values:*** Values of a feature that are not known or do not exist  
 
-**Statistical Tools**  
+***Statistical Tools***  
 
 ***Correlation:*** The measure of how much one set of values depends on another. If values increase together, they are positively correlated. If values from one set increases as the other decreases, they are negatively correlated. There is no correlation when a change in one set has nothing to do with a change in the other.  
 ***Outlier:*** A data point that is considered extremely far from other points  
 ***Summary Statistics:*** The measures we use to communicate insights about our data in a simple way. Examples of summary statistics are the mean, median and standard deviation.  
 
-**Machine Learning Techniques**  
+***Machine Learning Techniques***  
 
 ***Supervised Learning:*** A type of machine learning used to learn the relationship between independent variables and a specified outcome  
 ***Regression:*** a supervised learning problem where the outcome is continuous  
@@ -161,7 +158,7 @@ Here are some common terms you are most likely to encounter in your data science
 ***Clustering:*** an unsupervised learning problem which attempts to collect and categorise sets of data into groups that are similar to one another   
 ***Deep Learning:*** A type of machine learning that uses neural networks to solve complex problems, such as natural language processing (analysing text) and computer vision (analysing images)  
 
-**Stages of a Data Science Project**  
+***Stages of a Data Science Project***  
 
 ***Extract, Transform, Load (ETL, data engineering):*** The process of gathering data from different places in a raw form and changing it into a form that is ready for analysis  
 ***Data Cleaning / Wrangling:*** The process of manipulating data to make it usable for your project, for example making values consistent with a larger dataset, removing or replacing missing and incorrect values  
@@ -173,17 +170,15 @@ Here are some common terms you are most likely to encounter in your data science
 ***Overfitting:*** Happens when a model considers too much information from its training data that it fails to predict new data reliably  
 ***Model Deployment:*** Applying the model to real data to form a use case  
 
-**What the beginner thinks**
-
+**What the beginner thinks**  
 It can feel intimidating to have so many new terms to learn! Don’t worry about having to remember or fully understand these definitions right away. Machine learning models are, after all, just “thing labellers''. Learning the meanings of these words will help you get through your first data science book or online course. But more importantly, it’s what you do with this new knowledge that matters. By the end of your first project, you’ll have come across these terms so often that you’ll be able to come up with your own analogies to explain them to other data science beginners. I’ll leave you with one of my favourite videos explaining the [concept of machine learning with the analogy of using a microwave to make pizza](https://www.youtube.com/watch?v=KRvjGYIdJrg). Happy coding, young padawan! 
 
 **References**
-
 1. [Data Science Terms and Jargon: A Glossary](https://www.dataquest.io/blog/data-science-glossary/)
 2. [25 Terms Every Data Scientist Should Know](https://blog.coursera.org/ds-academy-25-data-science-terms/)
 3. [Glossary of Terms Journal of Machine Learning](http://robotics.stanford.edu/~ronnyk/glossary.html)
 
-## Day 5: Data Science in the Real World
+**Day 5: Data Science in the Real World**
 
 *Author: Maja Lie*
 
@@ -202,17 +197,17 @@ Lots of things can impact the stock market: news headlines, natural disasters, p
 
 Now, data science is not limited to a specific dicsipline at all. Remember from day 1 that "domain knowledge" is an integral part of data science? This domain knowledge is nothing but *what you need to know about an area you are going to work on*!
 
-**What the beginner thinks**
-
+**What the beginner thinks**  
 When I was a beginner, I was interested in cryptography, health economics, and education policies. My first thought when I was beginning to learn data science was: how can I apply this to an area of my interest? My recommendation is to think about your interests and how data science might fit into them, then look up a few articles related to it. It might reignite your interest in both the subject and data science!
 
 **References**
-
 1. [OxCovid19 Project](https://covid19.eng.ox.ac.uk/)
 2. [How TfL is using data science to reduce station overcrowding and closures](https://diginomica.com/how-tfl-using-data-science-reduce-station-overcrowding-and-closures)
 3. [How to Use Data Science on the Stock Market](https://towardsdatascience.com/how-to-use-data-science-on-the-stock-market-9d97a4d348d6)
 
-## Day 6: Descriptive Statistics
+## Week 2: Statistics and Math
+
+**Day 6: Descriptive Statistics**
 
 *Author: Maja Lie*
 
@@ -222,17 +217,9 @@ Descriptive statistics is helpful to understand key features of your data set. I
 
 Similary, there are many other descriptive analyses you can do, but the important thing is you should do them. Doing this before starting a project can reveal information about your data that might influence the type of model you decide to create or give you an idea of what the most suitable analysis would be. 
 
-**What the beginner thinks**
-
+**What the beginner thinks** 
 *I know what a mean is!* As a beginner, you probably already know quite a bit of descriptive statistics without realising it. A great refresher would be to refamiliarise yourself with the definitions of mean, standard deviation, and the properties of important distributions. Check out ST202 at LSE! Or the internet has endless resources and beginners’ courses that are short and quick. 
 
 **References**
-
 1. [Introduction to Descriptive Statistics](https://towardsdatascience.com/intro-to-descriptive-statistics-and-probability-for-data-science-8effec826488)
 2. [Example of Descriptive Statistics from Penn State](https://online.stat.psu.edu/stat505/lesson/1/1.4)
-
-## Test
-
-## Test 2
-
-## Test 3
