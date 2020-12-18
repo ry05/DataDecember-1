@@ -211,3 +211,22 @@ When I was a beginner, I was interested in cryptography, health economics, and e
 1. [OxCovid19 Project](https://covid19.eng.ox.ac.uk/)
 2. [How TfL is using data science to reduce station overcrowding and closures](https://diginomica.com/how-tfl-using-data-science-reduce-station-overcrowding-and-closures)
 3. [How to Use Data Science on the Stock Market](https://towardsdatascience.com/how-to-use-data-science-on-the-stock-market-9d97a4d348d6)
+
+## Day 6: Descriptive Statistics
+
+*Author: Maja Lie*
+
+> "Factfulness is … recognizing that a single perspective can limit your imagination, and remembering that it is better to look at problems from many angles to get a more accurate understanding and find practical solutions." - Hans Rosling
+
+Descriptive statistics is helpful to understand key features of your data set. It is about describing and summarizing data through important statistics such as mean and variance. When you are carrying out descriptive statistical analyses, it’s important to take note of a few things. The first thing you should look at is the distribution of your data. For example, a lot of data is normally distributed, which is a very popular distribution. This distribution is bell-shaped and symmetric with tails at both ends. Second, you should take note of statistics such as the mean, which is the average, and measures of variability like variance or standard deviation. Measures of variability show us how dispersed our data set is from the mean. Additionally, you can look at graphing your data set to see if there’s any kind of linear relationship or non linear relationship.
+
+Similary, there are many other descriptive analyses you can do, but the important thing is you should do them. Doing this before starting a project can reveal information about your data that might influence the type of model you decide to create or give you an idea of what the most suitable analysis would be. 
+
+**What the beginner thinks**
+
+*I know what a mean is!* As a beginner, you probably already know quite a bit of descriptive statistics without realising it. A great refresher would be to refamiliarise yourself with the definitions of mean, standard deviation, and the properties of important distributions. Check out ST202 at LSE! Or the internet has endless resources and beginners’ courses that are short and quick. 
+
+**References**
+
+1. [Introduction to Descriptive Statistics](https://towardsdatascience.com/intro-to-descriptive-statistics-and-probability-for-data-science-8effec826488)
+2. [Example of Descriptive Statistics from Penn State](https://online.stat.psu.edu/stat505/lesson/1/1.4)
