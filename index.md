@@ -233,7 +233,7 @@ The reason this topic is widely regarded in statistics is because it is often di
 
 You can see inferential statistics being used just about anywhere you have to carry out analysis of data and so you might even already have some experience of using it. Since it is such an important topic, we’ve decided to split it into two parts. The first part will provide resources that cover statistical probability distributions (these distributions represent the population of your data) and some sampling techniques which are used in collecting data. The second part will talk about estimation techniques, such as the Central Limit Theorem, and confidence intervals.
 
-**What the beginner thinks**
+**What the beginner thinks**  
 Wait, I do know a fair bit of this. Then what's holding me back from executing it in a project?
 
 Like with descriptive statistics, even a beginner might already be familiar with some of the topics covered. However, most of the hurdle lies in translating what you’ve learnt into actual executable code. So, it is crucial to know the topic inside and out so that you can easily implement it into a programming language. Even if you already know the topics, it is still a good idea to brush up on some of them. The internet provides vast resources for you to do this, or, if you’re really interested, you can audit the ST102/ST202 courses in LSE.
