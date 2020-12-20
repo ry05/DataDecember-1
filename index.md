@@ -220,3 +220,26 @@ Similary, there are many other descriptive analyses you can do, but the importan
 **References**
 1. [Introduction to Descriptive Statistics](https://towardsdatascience.com/intro-to-descriptive-statistics-and-probability-for-data-science-8effec826488)
 2. [Example of Descriptive Statistics from Penn State](https://online.stat.psu.edu/stat505/lesson/1/1.4)
+
+**Day 7: Inferential Statistics - I**
+
+*Author: Shahzeb Khan*
+
+> "There are two kinds of statistics, the kind you look up and the kind you make up." - Rex Stout
+
+Inferential statistics covers how you can use the data you’ve gathered to make predictions about bigger populations which your data doesn’t cover. For example, you’ve carried out a survey in a small village and have gathered figures about the annual income of all the residents. Moreover, you also calculated the average income for all the residents. Great, but can you **infer** anything about the average income of the entire country which the village resides in? Or can you calculate the variance? Inferential statistics equips you with tools to carry out such analysis.
+
+The reason this topic is widely regarded in statistics is because it is often difficult and expensive to gather data on millions of people. So, using inferential statistics, you can carry out your experiment on a small sample of people and use it to estimate how the population in general behaves.
+
+You can see inferential statistics being used just about anywhere you have to carry out analysis of data and so you might even already have some experience of using it. Since it is such an important topic, we’ve decided to split it into two parts. The first part will provide resources that cover statistical probability distributions (these distributions represent the population of your data) and some sampling techniques which are used in collecting data. The second part will talk about estimation techniques, such as the Central Limit Theorem, and confidence intervals.
+
+**What the beginner thinks**
+Wait, I do know a fair bit of this. Then what's holding me back from executing it in a project?
+
+Like with descriptive statistics, even a beginner might already be familiar with some of the topics covered. However, most of the hurdle lies in translating what you’ve learnt into actual executable code. So, it is crucial to know the topic inside and out so that you can easily implement it into a programming language. Even if you already know the topics, it is still a good idea to brush up on some of them. The internet provides vast resources for you to do this, or, if you’re really interested, you can audit the ST102/ST202 courses in LSE.
+
+**References**
+1. [Introduction to Inferential Statistics](https://towardsdatascience.com/inferential-statistics-data-analysis-e59adc75c6eb)
+2. [Probability Distributions in Python](https://www.datacamp.com/community/tutorials/probability-distributions-python)
+3. [Introduction to sampling methods](https://www.scribbr.com/methodology/sampling-methods/)
+4. [Using sampling techniques in Python](https://towardsdatascience.com/probability-sampling-with-python-8c977ad78664)
