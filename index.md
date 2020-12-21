@@ -243,3 +243,26 @@ Like with descriptive statistics, even a beginner might already be familiar with
 2. [Probability Distributions in Python](https://www.datacamp.com/community/tutorials/probability-distributions-python)
 3. [Introduction to sampling methods](https://www.scribbr.com/methodology/sampling-methods/)
 4. [Using sampling techniques in Python](https://towardsdatascience.com/probability-sampling-with-python-8c977ad78664)
+
+**Day 8: Inferential Statistics - II**
+
+*Author: Shahzeb Khan*
+
+> "Facts are stubborn, but statistics are more pliable" - Mark Twain
+
+In the last article we covered introduced inferential statistics and the type of analysis you can carry out using it. In this article, we will go into detail about how you can carry out this analysis. Specifically we will talk about the Central Limit Theorem (CLT), its uses and applications, and confidence intervals (how confident you can be in the analysis you carry out).
+
+So what is the CLT? Well it is a theorem that establishes that in many scenarios, random variables tend to a normal distribution even if the random variable is not itself normally distributed. For example, let’s say you generate a random number from some Poisson distribution. CLT tells you that if you generate enough random numbers from this Poisson distribution, they will start to take the shape of a normal distribution. To get a visual understanding, take a look at this [demonstration](https://www.youtube.com/watch?v=dlbkaurTAUg). Another way to look at it is that if you take enough samples from a population, CLT states that the graph of sample means will look more like a normal distribution. (Don’t worry if you don’t get this right now! More explanation will be provided in the resources.)
+
+Now that you have a guess for the population mean, how sure can you be in your guess? Using confidence intervals, you can quantify just how importance you should place in your guess. A confidence interval gives you an interval of values around your guess and tells you what is the probability of the true parameter being within this interval.
+
+**What the beginner thinks**  
+There’s too much maths and stats, I’m getting overwhelmed!
+
+If you’re one of the many people thinking this then don’t worry! It is perfectly normal to feel this way and no one expects you to understand everything at once. Actually, instead of dropping everything to learn all these concepts, it is better to approach them in bits and pieces. Set aside a few hours every week where you can study these topics in detail and in the rest of your time focus on the other sides of data science (such as coding). The good news is that Python already contains many libraries which implement these advanced concepts in just a few lines of code. Meaning, you don’t even need to know how something works to make use of it. Still, it is advisable that you go through the topics listed as when something doesn’t work, and it will eventually, you will be able to tell exactly what and why.
+
+**References**
+1. [Khan Academy: Central Limit Theorem](https://www.khanacademy.org/math/ap-statistics/sampling-distribution-ap/sampling-distribution-mean/v/central-limit-theorem)
+2. [Khan Academy: Confidence Intervals](https://www.khanacademy.org/math/statistics-probability/confidence-intervals-one-sample)
+3. [Visualizing Central Limit Theorem in Python](https://medium.com/analytics-vidhya/illustration-with-python-central-limit-theorem-aa4d81f7b570)
+4. [Confidence Intervals in Python](https://towardsdatascience.com/a-complete-guide-to-confidence-interval-and-examples-in-python-ff417c5cb593)
