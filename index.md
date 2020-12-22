@@ -257,7 +257,7 @@ So what is the CLT? Well it is a theorem that establishes that in many scenarios
 Now that you have a guess for the population mean, how sure can you be in your guess? Using confidence intervals, you can quantify just how importance you should place in your guess. A confidence interval gives you an interval of values around your guess and tells you what is the probability of the true parameter being within this interval.
 
 **What the beginner thinks**  
-There’s too much maths and stats, I’m getting overwhelmed!
+"There’s too much maths and stats, I’m getting overwhelmed!"
 
 If you’re one of the many people thinking this then don’t worry! It is perfectly normal to feel this way and no one expects you to understand everything at once. Actually, instead of dropping everything to learn all these concepts, it is better to approach them in bits and pieces. Set aside a few hours every week where you can study these topics in detail and in the rest of your time focus on the other sides of data science (such as coding). The good news is that Python already contains many libraries which implement these advanced concepts in just a few lines of code. Meaning, you don’t even need to know how something works to make use of it. Still, it is advisable that you go through the topics listed as when something doesn’t work, and it will eventually, you will be able to tell exactly what and why.
 
@@ -266,3 +266,29 @@ If you’re one of the many people thinking this then don’t worry! It is perfe
 2. [Khan Academy: Confidence Intervals](https://www.khanacademy.org/math/statistics-probability/confidence-intervals-one-sample)
 3. [Visualizing Central Limit Theorem in Python](https://medium.com/analytics-vidhya/illustration-with-python-central-limit-theorem-aa4d81f7b570)
 4. [Confidence Intervals in Python](https://towardsdatascience.com/a-complete-guide-to-confidence-interval-and-examples-in-python-ff417c5cb593)
+
+**Day 9: Statistical Tests**
+
+*Author: Ramshankar Yadhunath*
+
+> "A judicious man looks on statistics not to get knowledge, but to save himself from having ignorance foisted on him" - Thomas Carlyle
+
+The core of data science is in its ability to help us make decisions and interpret these in ways that would help others understand them. In its most basic form, a visualization could help us make decisions. For example, a scatter plot could help identify to an extent whether there is a relationship between 2 variables or not. However, when the stakes are higher, there naturally arises a need to have more complex methods to judge the usefulness of a decision. This is where the concept of statistical tests comes into the picture.
+
+Statistical tests are not the easiest concepts to pick up and hence the 500 word summary here might most likely be not enough to help you understand all of it. However, I shall try to put the first ideas in perspective here.
+
+Let’s take this from the start. A statistical test is fundamentally a tool to make better decisions or understand our assumptions. Therefore, the first step in a test is to clearly define assumptions. In a statistical hypothesis test, you have 2 assumptions – The null hypothesis(H0) and the alternate hypothesis(H1). The null is usually what you don’t want and the alternate is what you want to happen. If the null hypothesis is false(rejected), only then does the alternate hypothesis occur.
+The next question then is how do we know whether to reject or fail to reject the null hypothesis? For this, the test requires us to calculate something called a test statistic. Think of it as a single value representing some data in question. This test statistic is used to calculate a p-value. At this point, think of the p-value as a measure that is used along with a significance level to reject or fail to reject the null hypothesis. If a p-value is less than the significance level, then we say that “The null hypothesis has been rejected at the given significance level”. Obviously, if the p-value is greater than a given significance level, then the null hypothesis cannot be rejected at the given significance level.
+
+**What the beginner thinks**  
+"I still don’t know what a statistical test is even after going through this again and again!"
+
+Well, we have all been there. To be honest, I still get confused with the process. But, here is the truth – The only way to get familiar with these is to practice their use. For example, while the main framework seems simple, statistical tests can be of many different types. Using them in a project is what would help understand their components in better fashion. There are different kinds of statistical tests, but it is not that hard to know which one to use for what problem once you have a table such as the one presented here.
+
+Also, all data science is definitely not dependent on statistical tests. However, I would argue that statistical tests are one of the most important parts of data science, if not the most.
+
+**References**
+1. [What are statistical tests? (nist.gov)](https://www.itl.nist.gov/div898/handbook/prc/section1/prc13.htm)
+2. [Statistical testing - Understanding when to use which one? (datascience.foundation)](https://datascience.foundation/sciencewhitepaper/statistical-testing-understanding-which-testing-methods-to-use)
+3. [A Gentle Introduction to Statistical Hypothesis Testing (machinelearningmastery.com)](https://machinelearningmastery.com/statistical-hypothesis-tests/)
+
