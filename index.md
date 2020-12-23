@@ -292,3 +292,20 @@ Also, all data science is definitely not dependent on statistical tests. However
 2. [Statistical testing - Understanding when to use which one? (datascience.foundation)](https://datascience.foundation/sciencewhitepaper/statistical-testing-understanding-which-testing-methods-to-use)
 3. [A Gentle Introduction to Statistical Hypothesis Testing (machinelearningmastery.com)](https://machinelearningmastery.com/statistical-hypothesis-tests/)
 
+**Day 10: Linear Algebra and Calculus**
+
+*Author: Shahzeb Khan*
+
+> "Mathematics requires a small dose, not of genius, but of an imaginative freedom which, in a larger dose, would be insanity." - Angus K. Rodgers
+
+‘I understand why we need to learn statistics,’ I hear you saying, ‘but why on earth would we ever need to learn mathematics to become data scientists?’ Good question and one whose answer isn’t obvious at first. When you work as a data scientist, a lot of your work does revolve around on creating graphs and managing datasets, but you also need to perform analysis on your data as well. In the last article we saw how you can use inferential statistics to do this but another way is to use certain Machine Learning (ML) algorithms. These algorithms can help you generate predictions, classify objects and find patterns in your data. And so, in order to understand these algorithms, it is vital that you know some mathematics - specifically linear algebra and calculus.
+
+Linear Algebra is a branch of mathematics that deals with linear equations and how these equations can be represented through matrices and vector maps. Calculus is the study of continuous changes (think of differentiation and integration). Put them together and you are now able to understand how ML algorithms, such as neural networks, function.
+
+**What the beginner thinks**  
+Before you begin your journey of studying Linear Algebra and Calculus, I have to be frank with you, it is going to be an extremely long and difficult path. Infact, in just the few links I have provided above, I have already given you dozens of hours of material and they don’t even scratch the surface. So before you jump into the jungle of mathematics, thinking that you can simply breeze through these topics, just brace yourself. I want to assure you that it is okay to spend weeks, and even months, on certain topics; no one expects you to perfectly understand everything on your first try. In fact the beauty of programming is that you don’t even need to understand something in detail to be able to use it in code (due to the presence of libraries).
+
+**References**
+1. [Introduction to Machine Learning (covers how Linear Algebra and Calculus are used to build ML algorithms as well as other knowledge)](https://www.coursera.org/learn/machine-learning)
+2. [Essence of Linear Algebra (a video series which aims at providing a geometric understanding of Linear Algebra)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+3. [Introduction to Mathematics in Data Science (contains many follow-up links)](https://towardsdatascience.com/mathematics-for-data-science-e53939ee8306)
