@@ -271,7 +271,7 @@ If you’re one of the many people thinking this then don’t worry! It is perfe
 
 *Author: Ramshankar Yadhunath*
 
-> "A judicious man looks on statistics not to get knowledge, but to save himself from having ignorance foisted on him" - Thomas Carlyle
+> "A judicious man looks on statistics not to get knowledge, but to save himself from having ignorance foisted on him." - Thomas Carlyle
 
 The core of data science is in its ability to help us make decisions and interpret these in ways that would help others understand them. In its most basic form, a visualization could help us make decisions. For example, a scatter plot could help identify to an extent whether there is a relationship between 2 variables or not. However, when the stakes are higher, there naturally arises a need to have more complex methods to judge the usefulness of a decision. This is where the concept of statistical tests comes into the picture.
 
@@ -309,3 +309,35 @@ Before you begin your journey of studying Linear Algebra and Calculus, I have to
 1. [Introduction to Machine Learning (covers how Linear Algebra and Calculus are used to build ML algorithms as well as other knowledge)](https://www.coursera.org/learn/machine-learning)
 2. [Essence of Linear Algebra (a video series which aims at providing a geometric understanding of Linear Algebra)](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 3. [Introduction to Mathematics in Data Science (contains many follow-up links)](https://towardsdatascience.com/mathematics-for-data-science-e53939ee8306)
+
+## Week 3: Computer Programming for Data Science
+
+**Day 11: Brief Intro to Computer Programming**
+
+*Author: Ramshankar Yadhunath*
+
+> "Programming is the art of telling another human being what one wants the computer to do." - Donald E. Knuth
+
+There are many independent arguments about why one should learn to program in general, however in this section I shall talk about programming in the context of data science projects. The ability to write code and interact with data via computers is an essential part of modern data science. Programming is a tool in the data science workflow that pops up in essentially every step of a project.
+
+The key to a good computer program is efficient *problem defining and problem solving*. For example, if you are analysing a dataset containing tweets by a political party, then you must realise that the first step involved would be to ensure that you [clean the dataset](https://medium.com/swlh/twitter-data-cleaning-and-preprocessing-for-data-science-3ca0ea80e5cd). For doing this, you write code but before writing code, you must first understand what you want your clean dataset to look like!
+
+After deciding on how exactly you must solve your problem, the next step is writing the actual code. Now here, there is one skill that is possibly more important than any other – The *ability to read official documentation*. Official documentation is a document maintained by programming languages or libraries that house everything you need to know to use that language or library. Of course, to a beginner these docs might appear too scary. However, if you are able to master the skill of reading documentation, then writing code becomes a whole lot easier and faster.
+
+At this juncture, I would like to lay emphasis on the idea that, *“Writing code that can be read and understood in the future by the original programmer or another is as important as writing code that works”*. The use of appropriate comments and providing extra documentation where necessary is one way to ensure your code is readable.
+
+The 3 main points discussed above are in no ways comprehensive as far as computer programming is concerned. However, keeping these 3 points in your mind at all times will most likely save you a lot many hours of time when working on data science projects!
+
+**What the beginner thinks**  
+“I have never programmed. It looks so difficult.”
+
+The prospect of learning an entire new language is always difficult. But, that does not mean it can’t be done. Computer programming revolves around a few important concepts that are freely available on the internet. Once these concepts are covered, it does not really matter what programming language you choose as long as you get the job done. And in this case, getting the job done refers to completing your data science project in a way that it adds value to your stakeholders.
+
+I highly recommend this book [Structure and Interpretation of Computer Programs (mit.edu)](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html) if you are a complete beginner to computer programming.
+
+**References**
+1. [Introduction to Computer Science and Programming - MIT OpenCourseWare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/)
+2. [Computer Programming as an Art by Donald E. Knuth](https://dl.acm.org/doi/10.1145/361604.361612)
+3. [A Gentler Introduction to Programming (freecodecamp.org)](https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c/)
+
+
