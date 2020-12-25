@@ -340,4 +340,63 @@ I highly recommend this book [Structure and Interpretation of Computer Programs 
 2. [Computer Programming as an Art by Donald E. Knuth](https://dl.acm.org/doi/10.1145/361604.361612)
 3. [A Gentler Introduction to Programming (freecodecamp.org)](https://www.freecodecamp.org/news/a-gentler-introduction-to-programming-1f57383a1b2c/)
 
+**Day 12: The Data Science Stack - Python and R**
+
+*Author: Zhen-Yen Chan*
+
+> "Thanks to big data, machines can now be programmed to do the next thing right. But only humans can do the next right thing." - Dov Seidman
+
+In previous articles, we have talked about computer programming as a tool that helps us manipulate large amounts of data to extract insights which add value to stakeholders. This article introduces two of the most popular programming languages that have powered data science in the last two decades - Python and R.
+
+Python and R are preferred over other programming languages because they have many packages and libraries (collections of algorithms) that simplify data science tasks. They also have massive global communities - for any problem you encounter, hundreds of people have probably asked the same question and got answers online, on platforms such as Stack Overflow (every programmer’s best friend). Below, I summarise some insights into which one might be better for your needs, as well as recommend some resources to get started with both languages. 
+
+***Python***  
+Python is a *general-purpose* programming language that has many uses along with data science and statistics. Being general-purpose means it allows you to do “almost anything you can imagine” - websites, desktop applications, machine learning pipelines, data engineering systems and more. The biggest advantage of Python is the *readability* and *simplicity* of its syntax which is similar to written English, making scripts intuitive and accessible for people who are completely new to programming. 
+
+According to Stack Overflow and Kaggle surveys in 2019, Python is more widely used than R, although both languages are important among the data science community. If you are looking to get into programming in general, Python seems to be a better choice as it can be used in other areas of software development such as web development. If you need to share your analysis with other technical people, it might be good to use Python along with Jupyter Notebooks and Google Colaboratory, which allow you to display outputs between your code.
+
+If you need to develop APIs for your models to interact with other applications, Python allows you to *deploy your models* with simple APIs like Flask or build full-blown web applications with Django that can easily integrate into companies’ production systems. Most deep learning research and tools like Keras and PyTorch are also developed in Python, which are useful when you’re doing more advanced projects with neural networks.
+
+*My top picks: Python learning resources for beginners*
+
+1. ["Take your first steps with Python"](https://docs.microsoft.com/en-gb/learn/paths/python-first-steps/) by Microsoft is a free 5-hour course that introduces basic syntax and how to think like a programmer. 
+2. ["Foundations of data science"](https://docs.microsoft.com/en-gb/learn/paths/foundations-data-science/) by Microsoft and UC Berkeley, is a free 13-hour course. 
+3. Python for Data Analysis by Wes McKinney is a practical textbook that is good for building foundations. 
+4. [Guide to data mining](http://guidetodatamining.com/) - an introductory guide to machine learning with Python code and a sense of humour!
+5. For LSE students: [ST101 Programming for Data Science](https://www.lse.ac.uk/resources/calendar2020-2021/courseGuides/ST/2020_ST101.htm) - a half-unit course with Python first introduced in Lent Term 2020/21.
+
+***R***  
+R is a programming language specialised for statistical computing and graphics. It has a huge number of popular *statistical* packages (more than Python, though Python is catching up), such as tidyverse which helps with end-to-end data manipulation and visualisation, which makes it very useful for statisticians, economists, and social scientists.
+
+If you want to build quick dashboards for non-technical stakeholders, it’s a good idea to utilise R with its amazing *Shiny* library. If you are already familiar with scientific programming languages like MATLAB, it might be easier to learn R as those languages are very similar. 
+
+If you’d prefer to have all your packages handy and mainly focus on your analysis for decision-making, R might be the go-to tool. Thanks to *RStudio* - a well-designed environment with features such as syntax highlighting, integrated documentation and debuggers, going from raw data to analysis with visualisations without leaving your window makes it the simplest setup to get started with.
+
+*Even though Python is easy to get started with as well, throughout the years it has evolved into different versions and setups, which has caused me small problems when setting up on my computer as I did more projects!
+
+*My top picks: R learning resources for beginners*
+
+1. ["R Programming"](https://www.coursera.org/learn/r-programming) by Johns Hopkins University on Coursera is a comprehensive 57-hour course (you don’t need to complete it to get started on your first project!).
+2. R for Data Science by Wickham and Grolemund is a textbook which introduces R, RStudio and tidyverse designed for complete beginners looking to learn data science as quickly as possible. 
+3. An Introduction to Statistical Learning with Applications in R by James, Witten, Hastie and Tibshirani, is a classic textbook well-known in the data science community as ISLR. It introduces machine learning with clear math and R code and is my personal favourite!
+4. For LSE students: [ST211 Applied Regression](https://www.lse.ac.uk/resources/calendar2020-2021/courseGuides/ST/2020_ST211.htm) is great for building foundations in statistical thinking. ST309 Elementary Data Analytics covers most concepts in ISLR. ST309 students also get access to a [free DataCamp license](https://www.lse.ac.uk/resources/calendar2020-2021/courseGuides/ST/2020_ST309.htm) to learn R, which you can use for a whole year!
+
+**What the beginner thinks**
+
+"They both sound amazing, I still don’t know which one I should learn!"
+
+Regardless of which one you invest your time in learning, both Python and R are powerful languages that will serve you well. Many data scientists learn both languages to combine their capabilities and utilise the best of both worlds. However, you might have some trouble differentiating certain syntax if you keep switching between the two. My advice would be to just pick one and get started! You can consider learning the other if you become interested in a long-term career in data science (or when a module at university requires you to learn it).
+
+Also note that given the rate that technology is evolving, it seems likely that a new and more efficient language will be developed to replace Python and R in popularity within the next decade. But don’t worry, the fundamental programming concepts gained from learning either Python or R will make it easy for you to learn a second programming language whenever you need to. 
+
+Thanks for reading this far and all the best to those of you who are starting your coding journey in 2021. :) For LSESU Data Science Society members: be sure to utilise our Zulip workspace - our internal community platform for people to find teams, ask coding questions and support each other. The link to join can be found in our weekly society newsletters. 
+
+**Merry Christmas and happy coding, young padawan!**
+
+**References**
+1. [Python vs R for Data Science](https://towardsdatascience.com/python-vs-r-for-data-science-6a83e4541000)
+2. [R or Python? Why Not Both?](https://www.kdnuggets.com/2020/12/r-python-both-prython.html)
+3. [Python vs. R for Data Science: What’s the Difference?](https://www.datacamp.com/community/blog/when-to-use-python-or-r)
+4. [Kaggle Survey 2019 Dashboard](https://rpubs.com/theairbend3r/kaggle-survey-2019-dashboard)
+
 
