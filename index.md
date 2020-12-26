@@ -399,4 +399,36 @@ Thanks for reading this far and all the best to those of you who are starting yo
 3. [Python vs. R for Data Science: What’s the Difference?](https://www.datacamp.com/community/blog/when-to-use-python-or-r)
 4. [Kaggle Survey 2019 Dashboard](https://rpubs.com/theairbend3r/kaggle-survey-2019-dashboard)
 
+**Day 13: Brief Intro to SQL**
 
+*Author: Maja Lie*
+
+> "I am never so happy as when I am really engaged in good earnest; & it makes me most wonderfully cheery & merry at other times which is curious & very satisfactory." - Ada Lovelace
+
+What is SQL? Well, technically it stands for *Structured Query Language*. SQL is a programming language that can execute queries against a database to retrieve data, add data, update data, and perform other manipulations to data. There are a few key commands in SQL such as SELECT * FROM which allows you to select all of the columns from a specified data table. You can also group data by certain characteristics to select data that meets a criteria. Like in any other programming language, you can write conditional statements to filter out data. 
+
+In finance and countless other industries, banks and financial services companies use SQL to process huge customer databases. They may use SQL to group their information by their customers’ geographical location or account types. Once you process this data, you can use the data to create visualisations in Tableau or even use SQL within Python. Python has the ability to execute SQL queries using MySQL. The benefit of SQL is it’s a very powerful data organisational tool and being able to use it is highly sought out by employers, plus it’s not hard to pick up! When you start out, you will usually only use a few key commands, but these commands can accomplish a lot. 
+
+**What the beginner thinks**
+
+"All these employers say they want SQL, so I should probably learn what it is."
+
+First of all, it’s pronounced “sequel”. Second, you should start learning SQL by familiarising yourself with the most used commands first. Here are some of them:
+SELECT - extracts data from a database
+UPDATE - updates data in a database
+DELETE - deletes data from a database
+INSERT INTO - inserts new data into a database
+CREATE DATABASE - creates a new database
+ALTER DATABASE - modifies a database
+CREATE TABLE - creates a new table
+ALTER TABLE - modifies a table
+DROP TABLE - deletes a table
+CREATE INDEX - creates an index (search key)
+DROP INDEX - deletes an index
+ 
+Then experiment! Hands on learning is the best way to get better at SQL.
+
+**References**
+1. [Python and SQL](https://realpython.com/python-sql-libraries/)
+2. [What is SQL](https://learntocodewith.me/posts/sql-guide/)
+3. [SQL Beginners’ Course](https://www.datacamp.com/courses/introduction-to-sql?utm_source=adwords_ppc&utm_campaignid=897699250&utm_adgroupid=47591961271&utm_device=c&utm_keyword=sql%20tutorials%20for%20beginners&utm_matchtype=e&utm_network=g&utm_adpostion=&utm_creative=210926685498&utm_targetid=aud-299261629574%3Akwd-342899222874&utm_loc_interest_ms=&utm_loc_physical_ms=9045957&gclid=Cj0KCQiAqo3-BRDoARIsAE5vnaJshUZlFecUotbsY7_r29axRozXLLLv5_WEzmAZhcgG79KlhpcUaSYaAoBlEALw_wcB)
