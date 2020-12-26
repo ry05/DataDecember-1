@@ -414,17 +414,18 @@ In finance and countless other industries, banks and financial services companie
 "All these employers say they want SQL, so I should probably learn what it is."
 
 First of all, it’s pronounced “sequel”. Second, you should start learning SQL by familiarising yourself with the most used commands first. Here are some of them:
-SELECT - extracts data from a database
-UPDATE - updates data in a database
-DELETE - deletes data from a database
-INSERT INTO - inserts new data into a database
-CREATE DATABASE - creates a new database
-ALTER DATABASE - modifies a database
-CREATE TABLE - creates a new table
-ALTER TABLE - modifies a table
-DROP TABLE - deletes a table
-CREATE INDEX - creates an index (search key)
-DROP INDEX - deletes an index
+
+*SELECT* - extracts data from a database  
+*UPDATE* - updates data in a database  
+*DELETE* - deletes data from a database  
+*INSERT INTO* - inserts new data into a database  
+*CREATE DATABASE* - creates a new database  
+*ALTER DATABASE* - modifies a database  
+*CREATE TABLE* - creates a new table  
+*ALTER TABLE* - modifies a table  
+*DROP TABLE* - deletes a table  
+*CREATE INDEX* - creates an index (search key)  
+*DROP INDEX* - deletes an index  
  
 Then experiment! Hands on learning is the best way to get better at SQL.
 
