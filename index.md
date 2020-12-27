@@ -433,3 +433,32 @@ Then experiment! Hands on learning is the best way to get better at SQL.
 1. [Python and SQL](https://realpython.com/python-sql-libraries/)
 2. [What is SQL](https://learntocodewith.me/posts/sql-guide/)
 3. [SQL Beginners’ Course](https://www.datacamp.com/courses/introduction-to-sql?utm_source=adwords_ppc&utm_campaignid=897699250&utm_adgroupid=47591961271&utm_device=c&utm_keyword=sql%20tutorials%20for%20beginners&utm_matchtype=e&utm_network=g&utm_adpostion=&utm_creative=210926685498&utm_targetid=aud-299261629574%3Akwd-342899222874&utm_loc_interest_ms=&utm_loc_physical_ms=9045957&gclid=Cj0KCQiAqo3-BRDoARIsAE5vnaJshUZlFecUotbsY7_r29axRozXLLLv5_WEzmAZhcgG79KlhpcUaSYaAoBlEALw_wcB)
+
+**Day 14: Microsoft Excel for Data Science**
+
+*Author: Zhen-Yen Chan*
+
+> "Data science is about combining the tools best suited to get the job done." - Rashi Desai
+
+I’m not afraid to admit that I love organising my life in spreadsheets. I use them for everything from planning my budget and revision schedule to managing LSESU Data Science Society’s workflows. In today’s article, I discuss some pros and cons of one of the longest-standing tools that can help us in data science, and also point to some resources for anyone interested in learning data analysis skills on Excel. 
+
+Often overlooked in the data science community, Microsoft Excel is probably the best and most well-known tool for working with 2-dimensional data (tables with rows and columns). It’s so much easier to edit, format and share tables in Excel than, say, Python or R. Google Sheets is also amazing because it scales the design of Excel to allow multiple users to edit simultaneously. Pivot tables and charts are powerful tools for data analysis, along with data cleaning and text processing functions like Remove Duplicate Values, Text to Columns, Vlookup(), Concatenate() and Trim(). Furthermore, the built-in database engine can execute SQL queries, and the Power Query editor can connect to data sources on the Cloud. Excel’s Analysis ToolPak can perform regression and statistical testing, and the Solver tool can be used to create deep learning models (that are slow and inefficient, but work the same). 
+
+While Analysis ToolPak allows us to do machine learning on Excel, it is cumbersome to adapt your models with hard-coded functions in VBA. Hence, most data scientists prefer Python or R for their open libraries and transparency, as well as their larger data capacity. At the time of writing, Excel has a limit of 1,048,576 rows and 16,384 columns per sheet. This is often enough for most personal and commercial needs for editing and exploring data, but is not very impressive for Big Data such as social media datasets with a few million rows. Excel is also far behind in data visualisation capability compared to libraries like R’s ggplot and Python’s matplotlib. Finally, it is difficult to track how you manipulate data from beginning to end in Excel unlike in Python and R scripts - so that others can repeat and verify your work.
+
+*My top picks: Excel learning resources for beginners*
+
+1. [“Learning Excel: Data Analysis” on LinkedIn Learning is a free 2-hour tutorial that teaches basic statistics concepts applied using data analysis and visualisation tools on Excel](https://www.linkedin.com/learning/learning-excel-data-analysis)
+2. **Learn Data Mining through Excel** by Hong Zhou is a quick read that takes you through the basics of machine learning and implements them with Excel.
+
+**What the beginner thinks**  
+"I already know Excel, so it seems less intimidating than learning to code."
+
+The simplicity of Excel allows you to get started with data manipulation quickly and easily, making it accessible to less technical people looking to understand their organisation’s data. While Excel cannot replace Python/R machine learning, it is a great window to learn the workings of algorithms and solve many problems without writing a line of code. Data science is always about combining the tools best suited to get the job done. On some days, Excel would be your go-to for quick pivots and charts, on other days you’d need to code to reveal deeper insights, and someday you might decide to combine the capabilities of both. Keep excelling, young padawan!
+
+**References**
+1. [Excel for Data Science?](https://towardsdatascience.com/excel-for-data-science-a82247670d7a)
+2. [An introduction to data science and machine learning with Microsoft Excel](https://bdtechtalks.com/2020/12/22/excel-data-science-machine-learning/)
+3. [10+ Simple Yet Powerful Excel Tricks for Data Analysis](https://www.analyticsvidhya.com/blog/2020/04/excel-tips-tricks-data-analysis/)
+
+
