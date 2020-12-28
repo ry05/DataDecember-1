@@ -461,4 +461,35 @@ The simplicity of Excel allows you to get started with data manipulation quickly
 2. [An introduction to data science and machine learning with Microsoft Excel](https://bdtechtalks.com/2020/12/22/excel-data-science-machine-learning/)
 3. [10+ Simple Yet Powerful Excel Tricks for Data Analysis](https://www.analyticsvidhya.com/blog/2020/04/excel-tips-tricks-data-analysis/)
 
+**Day 15: Data Science on the Cloud**
 
+*Author: Chris Chia*
+
+> "I don’t need a hard disk in my computer if I can get to the server faster… carrying around these non-connected computers is byzantine by comparison." - Steve Jobs
+
+Much of Data Science, as a student seems to be done in Jupyter Notebooks and locally downloaded .csv files.  However in a “real world” setting, you may be tasked to source data from the company’s database, or presented with datasets that are simply too large to fit into memory - “Big Data”! How can you train a model, do visualisations, and analyse the data  if you can’t even load the dataset?
+
+These are some examples where  “the cloud” might come into play. In one sentence, cloud computing represents on-demand computing resources available somewhere else - for example storage (e.g. of large datasets) and computational (e.g. to train deep learning models). The most well known cloud computing platforms are Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure.
+
+**Some use cases**
+
+*Cloud Databases / Persistence*  
+Beyond being able to store datasets being too large for your computer, cloud databases may also be helpful in allowing dynamic real-time updates - your dataset may be changing daily -  and sharing access to data with your collaborators,  but with the added advantage of not having to configure the database too much yourself. Some tools that could help with this are: [Google’s Firebase](https://firebase.google.com/) and [AWS S3](https://aws.amazon.com/s3/)
+
+*Pre-existing Models/APIs for Computer Vision, NLP*  
+Cloud platforms also allow you to train models, but maybe you have some Computer Vision or NLP task. Instead of training a model from scratch, you could consider some of the existing solutions offered, for example [AWS Rekognition](https://aws.amazon.com/rekognition/), [GCP’s Natural Language API](https://cloud.google.com/natural-language) etc. 
+
+*Web Applications*  
+After your research, you have created a solution in the form of a web app or dashboard (perhaps using Streamlit, R Shiny, Dash/Plotly). Maybe you want to display it on the internet so others can view your work.  Some tools to do this are [Heroku](https://www.heroku.com/) and [AWS Elastic Compute 2 (EC2)](https://aws.amazon.com/ec2/)
+
+**What the beginner thinks**  
+"Why should I learn about Data Science & Cloud? It works fine in my Jupyter Notebook"
+
+Familiarity with Cloud Computing is not only helpful in “Big Data” scenarios, but also in “small data” (e.g. student projects!); the cloud platforms provide a lot of tools that can bootstrap your data science projects (see below).
+
+Finally, learning about Cloud & Data Science is helpful if you want to be a Data Scientist or Software Engineer / Data Engineer. Or maybe you are a social scientist who is tasked with analysing a massive dataset, or working as a financial industry professional who has to analyse a massive financial time-series dataset. Regardless, there is value in learning about cloud computing & data science.
+
+**Getting started**  
+There are no definitive guides to data science on the cloud, given the breadth of the tools available. A variety of information is usually available in the documentation, and online articles/videos/courses. As usual, a good way to get started is to work on a project, and in doing so learn the appropriate tools for the task - [one example](https://aws.amazon.com/blogs/architecture/serverless-architecture-for-a-web-scraping-solution/) could be to use AWS Lambda to scrape some data daily, store it on AWS S3,  and deploy the final web app on EC2.
+
+Finally, watch out for those AWS charges - [Silicon Valley S04E04](https://www.youtube.com/watch?v=uyIlAO390v4)
