@@ -493,3 +493,26 @@ Finally, learning about Cloud & Data Science is helpful if you want to be a Data
 There are no definitive guides to data science on the cloud, given the breadth of the tools available. A variety of information is usually available in the documentation, and online articles/videos/courses. As usual, a good way to get started is to work on a project, and in doing so learn the appropriate tools for the task - [one example](https://aws.amazon.com/blogs/architecture/serverless-architecture-for-a-web-scraping-solution/) could be to use AWS Lambda to scrape some data daily, store it on AWS S3,  and deploy the final web app on EC2.
 
 Finally, watch out for those AWS charges - [Silicon Valley S04E04](https://www.youtube.com/watch?v=uyIlAO390v4)
+
+## Week 4: Working on a Data Science Project
+
+**Day 16: Problem Formulation and Data Acquisition**
+
+*Author: Maja Lie*
+
+> "Life is not easy for any of us. But what of that? We must have perseverance and above all confidence in ourselves." - Marie Curie
+
+Formulating your question when designing an experiment is the first step and one of the most important parts of your experimental design. This question will drive all other parts of your experiment, including what analysis you use and how you collect data. 
+
+Usually, you will already have a problem in mind to tackle. First, you need to ask a question that is specific enough to be new and interesting (you don’t want to ask a question that a million people have already answered) but broad enough so that you will actually be able to find data to use (unless you are collecting your own data). Second, you need to collect data that is relevant to the question you’re trying to answer. For example, say we are Tesco and our question is what products do shoppers buy frequently together. We want to find this out so we can change the layout of our store to place these products at opposite ends of the store, forcing the customer to go through the entire store. We hope this will improve profits; customers walking through the store might see something else and purchase that as well. Collecting data on customers’ nationality might not be important to us in this case, but knowing if a customer has a small baby might. They will purchase more baby food products and diapers. We can acquire our data by either conducting our own experiment or searching online for existing databases. If you use an experiment, keep in mind the importance of randomisation. Third, selecting a model will depend on our question. For our Tesco question, we probably want to use market basket analysis. Fourth, we should test whether the changes we made due to our analysis actually resulted in higher profits. The important thing is to make sure you are really answering the question you asked in the first place. 
+
+This is a specific example, but the basic thought process can be applied to your own project. Good luck! Please message us through Zulip if you need more guidance.
+
+**What the beginner thinks**  
+"Where to start? There are so many questions waiting to be asked - how can I possibly choose one?"
+
+My recommendation is to start with this market basket analysis example. It’s a really easy one to understand. Go through the thought process of designing a project that would answer the Tesco question. Even go online to see what data sources are available. Once you go through this, you’ll be more comfortable with the approach. For your own project, choose something near and dear to your heart. My grandfather had Parkinson’s disease, so one of the first projects I did asked the question: can data science be used to detect Parkinson’s disease ahead of an actual diagnosis? If you pick something you care about, you’re likely to put in more effort and do better. 
+
+**References**
+1. [Defining a Data Science Problem](https://towardsdatascience.com/defining-a-data-science-problem-4cbf15a2a461)
+2. [9 Steps for solving Data Science problems](https://towardsdatascience.com/9-steps-for-solving-data-science-problems-dc3c238cb58c)
