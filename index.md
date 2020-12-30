@@ -516,3 +516,28 @@ My recommendation is to start with this market basket analysis example. It’s a
 **References**
 1. [Defining a Data Science Problem](https://towardsdatascience.com/defining-a-data-science-problem-4cbf15a2a461)
 2. [9 Steps for solving Data Science problems](https://towardsdatascience.com/9-steps-for-solving-data-science-problems-dc3c238cb58c)
+
+**Day 17: Data Cleaning**
+
+*Author: Ximin*
+
+> "I kind of have to be a master of cleaning, extracting and trusting my data before I do anything with it." - Scott Nicholson
+
+Data cleaning is an important first step in any data science project. It is the process of dealing with data points that are incorrect, inaccurate or incomplete, before we perform any further analysis. I will be walking you through some of the steps in data cleaning, using a dataset of rental listings scraped from Zoopla.
+
+**Missing data**  
+Check for null values across the columns of the dataset. There are 2 ways to deal with missing data - drop or impute.
+In our dataset, rows with no rent price are dropped, since we are interested in predicting rent prices. It was found that listings that are ‘Studio’ or ‘Rooms’ (meaning a single room is for rent, not the whole property) have missing values in the Bedrooms column. These rows are not dropped - the empty Bedroom values are filled in with 0 and 1 respectively. For apartments with missing value for Receptions, these are filled in with 1, which is the typical number for Receptions in apartments.
+
+**Outliers**  
+Depending on how you define outliers, you may want to drop these rows unless they provide valuable information. In our case, rows with more than 5 bedrooms or 5 bathrooms are dropped. 
+
+**Errors**  
+Sometimes, values can appear with typos, inconsistent formats or different units. For example, in the Bedrooms column, some values were spelled out (e.g. ‘four’). It is important to ensure that these differences are standardized, for ease of analysis in later stages.
+
+**Irrelevant data**  
+There could be irrelevant columns or duplicate rows in the data. It is best to remove these points to focus on those that are the most relevant. If you require data from multiple tables, it is also a good idea to merge them. For example, latitude and longitude data for the listings were separately obtained in another table, then merged with the current data set as additional columns.
+
+**Conclusion**  
+I have introduced some of the key things to look out for in cleaning a dataset. Ultimately, how you clean the data depends on the state of your dataset and what you intend to do with the data. However, it definitely is a crucial step in any successful data science project, so do pay attention to it!
+
