@@ -525,7 +525,7 @@ My recommendation is to start with this market basket analysis example. It’s a
 
 Data cleaning is an important first step in any data science project. It is the process of dealing with data points that are incorrect, inaccurate or incomplete, before we perform any further analysis. I will be walking you through some of the steps in data cleaning, using a dataset of rental listings scraped from Zoopla.
 
-![](messy_data.png)
+![](messy_data.PNG)
 <center>Fig 1. Snapshot of our messy data</a></center>
 
 **Missing data**  
