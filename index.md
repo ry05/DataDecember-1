@@ -525,6 +525,9 @@ My recommendation is to start with this market basket analysis example. It’s a
 
 Data cleaning is an important first step in any data science project. It is the process of dealing with data points that are incorrect, inaccurate or incomplete, before we perform any further analysis. I will be walking you through some of the steps in data cleaning, using a dataset of rental listings scraped from Zoopla.
 
+![](messy_data.png)
+<center>Fig 1. Snapshot of our messy data</a></center>
+
 **Missing data**  
 Check for null values across the columns of the dataset. There are 2 ways to deal with missing data - drop or impute.
 In our dataset, rows with no rent price are dropped, since we are interested in predicting rent prices. It was found that listings that are ‘Studio’ or ‘Rooms’ (meaning a single room is for rent, not the whole property) have missing values in the Bedrooms column. These rows are not dropped - the empty Bedroom values are filled in with 0 and 1 respectively. For apartments with missing value for Receptions, these are filled in with 1, which is the typical number for Receptions in apartments.
