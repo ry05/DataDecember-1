@@ -519,7 +519,7 @@ My recommendation is to start with this market basket analysis example. It’s a
 
 **Day 17: Data Cleaning**
 
-*Author: Ximin*
+*Author: Ximin Chen*
 
 > "I kind of have to be a master of cleaning, extracting and trusting my data before I do anything with it." - Scott Nicholson
 
