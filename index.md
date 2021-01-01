@@ -557,7 +557,7 @@ In this post, I shall provide some examples of EDA techniques using the FIFA-19 
 ![](a_18/1.PNG)
 <center>Fig 1. Data sample used</center>
 
-**General Overview**
+**General Overview**  
 We will first begin with a general overview of the data and get some descriptive statistics. The shape function and the info() function can be used to look at the dataset’s dimensions, and identify the features it contains and its types. We can see that there are 18207 players and 84 attributes.
 
 ![](a_18/2.PNG)
@@ -570,7 +570,7 @@ The describe() function provides descriptive statistics that summarize the distr
 
 After getting a broad overview of the data, we can move on to generating visualisations of our data.
 
-**Univariate Visualisations**
+**Univariate Visualisations**  
 Univariate visualizations are any visualizations where there is only a single variable involved. 
 
 For example, using a histogram, we can see that the overall ratings of players resembles a normal distribution, and the mean rating of players is 66.24. It is clear that only a small minority of players have ratings above 90. 
@@ -578,7 +578,7 @@ For example, using a histogram, we can see that the overall ratings of players r
 ![](a_18/4.PNG)
 <center>Fig 4</center>
 
-**Multivariate Visualisations**
+**Multivariate Visualisations**  
 These allow us to analyse 2 or more variables at the same time. 
 
 Scatterplots and joint plots can be used when analysing numerical columns. For example, plotting a player’s value against their Jersey Numbers reveals that most players prefer lower numbers, and that players with the highest valuations prefer the numbers 7-11. 
@@ -591,9 +591,27 @@ When comparing a categorical column with a numerical one, we can use violin plot
 ![](a_18/7.PNG)
 <center>Fig 6</center>
 
-**Conclusion**
+**Conclusion**  
 The above mentioned steps scratch just the surface of what is an incredibly broad topic. Data exploration is to treated as if it were a kind of art. There is always going to be heavy reliance on your intuition and domain knowledge when performing this step.
 
 **References**
 1. [Comprehensive data exploration with python](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python)
 2. [An Extensive Step by Step Guide to Exploratory Data Analysis](https://towardsdatascience.com/an-extensive-guide-to-exploratory-data-analysis-ddd99a03199e)
+
+**Day 19: Building Models**
+
+*Author: Mun Fai*
+
+> "Computers are able to see, hear and learn.  Welcome to the future." - Dave Waters
+
+To know which model to use, we should first differentiate between **supervised and unsupervised learning**. For supervised learning, the model learns using labelled data. Think of labels as an “answer” about the data. Hence, if we are building a model to predict if a person is likely to be unemployed given his characteristics (e.g. education, race and gender), the input data should include a variable to indicate whether an individual is unemployed. When shown another person, the model will compare it to the labelled dataset to make predictions of unemployment. 
+
+Within *supervised learning*, people tend to focus on regression and classification. Regression looks at continuous variables such as predicting for the price of ice cream when demand rises in summer. On the other hand, classification looks at discrete variables - we are concerned if something falls within a certain class. In practice, both regression and classification models are rather similar. 
+
+For *unsupervised learning*, the data is unlabelled. Hence, the model does not know the correct ‘answer’. Instead, it will just try to extract patterns from the data. A common example of unsupervised learning is clustering. The model looks at different data points and groups those that are similar to one another together. Another example of unsupervised learning is anomaly detection. This is commonly used in predicting credit card fraud. The model tries to ‘understand’ a customer’s spending habits and will flag out any anomalies that may be indicative of fraud. 
+
+**What the Beginner thinks**  
+Whilst there are many models to choose from, the foremost task is to use the right tool for the right job. Understand what data science problem you are facing and there will be a variety of tools you can tinker with. Sckit-learn on Python is a good starting package as it contains many common models along with tutorials on how they work and how to use them. 
+
+**References**
+1. [Difference between supervised, unsupervised and reinforcement learning](https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/)
