@@ -526,7 +526,7 @@ My recommendation is to start with this market basket analysis example. It’s a
 Data cleaning is an important first step in any data science project. It is the process of dealing with data points that are incorrect, inaccurate or incomplete, before we perform any further analysis. I will be walking you through some of the steps in data cleaning, using a dataset of rental listings scraped from Zoopla.
 
 ![](messy_data.PNG)
-<center>Fig 1. Snapshot of our messy data</a></center>
+<center>Fig 1. Snapshot of our messy data</center>
 
 **Missing data**  
 Check for null values across the columns of the dataset. There are 2 ways to deal with missing data - drop or impute.
@@ -544,3 +544,56 @@ There could be irrelevant columns or duplicate rows in the data. It is best to r
 **Conclusion**  
 I have introduced some of the key things to look out for in cleaning a dataset. Ultimately, how you clean the data depends on the state of your dataset and what you intend to do with the data. However, it definitely is a crucial step in any successful data science project, so do pay attention to it!
 
+**Day 18: Data Exploration**
+
+*Author: Harish V*
+
+> "If you do not know how to ask the right question, you discover nothing." - W. Edward Deming
+
+After cleaning our data, we would need to explore it to understand its main characteristics and try to get a preliminary sense of some of the relationships that exist in the data. EDA, or Exploratory Data Analysis, can help us make sense of our data and identify patterns. It is especially helpful for large datasets which you are not familiar with. Also, such an exploration of the data will facilitate and improve one’s ability at asking relevant questions from the data at hand.
+
+In this post, I shall provide some examples of EDA techniques using the FIFA-19 players dataset from Kaggle. This dataset contains detailed information on every player registered in the FIFA-19 database and can be accessed [here](https://www.kaggle.com/karangadiya/fifa19).
+
+![](a_18/1.png)
+<center>Fig 1. Data sample used</center>
+
+**General Overview**
+We will first begin with a general overview of the data and get some descriptive statistics. The shape function and the info() function can be used to look at the dataset’s dimensions, and identify the features it contains and its types. We can see that there are 18207 players and 84 attributes.
+
+![](a_18/2.png)
+<center>Fig 2</center>
+
+The describe() function provides descriptive statistics that summarize the distribution of numerical columns. Information such as the count, mean, standard deviation and quartiles is returned.
+
+![](a_18/3.png)
+<center>Fig 3</center>
+
+After getting a broad overview of the data, we can move on to generating visualisations of our data.
+
+**Univariate Visualisations**
+Univariate visualizations are any visualizations where there is only a single variable involved. 
+
+For example, using a histogram, we can see that the overall ratings of players resembles a normal distribution, and the mean rating of players is 66.24. It is clear that only a small minority of players have ratings above 90. 
+
+![](a_18/4.png)
+<center>Fig 4</center>
+
+**Multivariate Visualisations**
+These allow us to analyse 2 or more variables at the same time. 
+
+Scatterplots and joint plots can be used when analysing numerical columns. For example, plotting a player’s value against their Jersey Numbers reveals that most players prefer lower numbers, and that players with the highest valuations prefer the numbers 7-11. 
+
+![](a_18/6.png)
+<center>Fig 5</center>
+
+When comparing a categorical column with a numerical one, we can use violin plots and categorial box plots. In this example, using a boxen plot to plot the distribution of a player’s value by their position group shows that goalkeepers tend to have slightly lower valuations. 
+
+![](a_18/7.png)
+<center>Fig 6</center>
+
+**Conclusion**
+The above mentioned steps scratch just the surface of what is an incredibly broad topic. Data exploration is to treated as if it were a kind of art. There is always going to be heavy reliance on your intuition and domain knowledge when performing this step.
+
+**References**
+1. [Comprehensive data exploration with python](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python)
+2. [An Extensive Step by Step Guide to Exploratory Data Analysis](https://towardsdatascience.com/an-extensive-guide-to-exploratory-data-analysis-ddd99a03199e)
