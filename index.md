@@ -554,18 +554,18 @@ After cleaning our data, we would need to explore it to understand its main char
 
 In this post, I shall provide some examples of EDA techniques using the FIFA-19 players dataset from Kaggle. This dataset contains detailed information on every player registered in the FIFA-19 database and can be accessed [here](https://www.kaggle.com/karangadiya/fifa19).
 
-![](a_18/1.png)
+![](a_18/1.PNG)
 <center>Fig 1. Data sample used</center>
 
 **General Overview**
 We will first begin with a general overview of the data and get some descriptive statistics. The shape function and the info() function can be used to look at the dataset’s dimensions, and identify the features it contains and its types. We can see that there are 18207 players and 84 attributes.
 
-![](a_18/2.png)
+![](a_18/2.PNG)
 <center>Fig 2</center>
 
 The describe() function provides descriptive statistics that summarize the distribution of numerical columns. Information such as the count, mean, standard deviation and quartiles is returned.
 
-![](a_18/3.png)
+![](a_18/3.PNG)
 <center>Fig 3</center>
 
 After getting a broad overview of the data, we can move on to generating visualisations of our data.
@@ -575,7 +575,7 @@ Univariate visualizations are any visualizations where there is only a single va
 
 For example, using a histogram, we can see that the overall ratings of players resembles a normal distribution, and the mean rating of players is 66.24. It is clear that only a small minority of players have ratings above 90. 
 
-![](a_18/4.png)
+![](a_18/4.PNG)
 <center>Fig 4</center>
 
 **Multivariate Visualisations**
@@ -583,12 +583,12 @@ These allow us to analyse 2 or more variables at the same time.
 
 Scatterplots and joint plots can be used when analysing numerical columns. For example, plotting a player’s value against their Jersey Numbers reveals that most players prefer lower numbers, and that players with the highest valuations prefer the numbers 7-11. 
 
-![](a_18/6.png)
+![](a_18/6.PNG)
 <center>Fig 5</center>
 
 When comparing a categorical column with a numerical one, we can use violin plots and categorial box plots. In this example, using a boxen plot to plot the distribution of a player’s value by their position group shows that goalkeepers tend to have slightly lower valuations. 
 
-![](a_18/7.png)
+![](a_18/7.PNG)
 <center>Fig 6</center>
 
 **Conclusion**
