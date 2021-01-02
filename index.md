@@ -615,3 +615,34 @@ Whilst there are many models to choose from, the foremost task is to use the rig
 
 **References**
 1. [Difference between supervised, unsupervised and reinforcement learning](https://blogs.nvidia.com/blog/2018/08/02/supervised-unsupervised-learning/)
+
+**Day 20: Presentation of Your Project**
+
+*Author: Ramshankar Yadhunath*
+
+> "Just because you analyzed a ton of data does not mean you need to show a ton of data" - Cole Nussbaumer Knaflic
+
+Presentation is a very important part of the data science lifecycle. It is in this step where value is delivered to the stakeholders. In the context of a project, this is the step where you showcase the finds and results of the work put in.
+
+There are different ways to present your project based on the type of project. If the project involves only data analysis, then you could choose to present a report of your finds or create a static dashboard. If the project involves generating predictions or the classification of samples, then an application deployed as a website could be a potential choice of presentation.
+
+**Why and where to present a project?**  
+Presentation of projects will also help build one’s portfolio and thus increase chances of employability. A very common platform to share projects is [Github](https://github.com/). In fact, several data scientists use Github to build their data science portfolio. Writing blog posts explaining your project would be well-received as the act of technical blogging depicts a deep passion for the subject. If you want to take things up a level higher, you could even build your own website to showcase your work. 
+[Kaggle](https://www.kaggle.com/) is a highly relevant platform if you want to be amidst a learning and thriving data science community.
+
+**Summarizing your project**  
+There is a considerable difference between the task of doing a data science project and making it palatable to your stakeholders. Many a time, stakeholders are not interested in the specifics of your ML algorithm. Rather, it is more important to them to know whether the solution you present could be valuable to them. This is where the art of presentation and making good analytical reports comes into play. **Always remember that it is never about what you know or what you did. It’s always about what value your work puts on the table.**
+
+**What the beginner thinks**  
+"My project is too basic. I don’t think this needs to be presented."
+
+Well, I would agree with you on this only if your project is a plagiarized version of somebody’s work. Otherwise, it makes no sense to hold back. There is no such thing as a universally-accepted project. Every project is different, right from the motivations of the creator to the reception by stakeholders. Therefore, the key is to get over the impostor syndrome and get working. If you are still confused about this, all you need to know is that - "*Only one part of a data science project matters - The part where you can deliver value to someone*"
+
+**References**
+
+1. [How to properly present a Data Mining project - KDNuggets](https://www.kdnuggets.com/2015/07/present-data-mining-project.html)
+2. [Chapter 11. Producing effective presentations - Practical Data Science with R (manning.com)](https://livebook.manning.com/book/practical-data-science-with-r/chapter-11/1)
+3. [The Ultimate Guide to Deploying Machine Learning Models - ML in Production](https://mlinproduction.com/deploying-machine-learning-models/)
+4. [Low Tech SUPER POWERS for Data Storytelling - YouTube](https://www.youtube.com/watch?v=2-48m867oTc&feature=emb_logo)
+5. [Some Best Practices for Analytics Reporting - John Miller](https://www.kaggle.com/jpmiller/some-best-practices-for-analytics-reporting/)
+6. [Storytelling with data]()
