@@ -23,6 +23,8 @@ To take part, all you need to do is follow 3 simple steps:
 **Contributors**  
 #DataDecember has been conceived, operationalized and fueled by the data-related interests of some of us at the society. We would love to have a chat with you if you are interested!
 
+The ones behind the articles
+
 - [Ramshankar Yadhunath](https://www.linkedin.com/in/ramshankar-yadhunath-324a99155/)
 - [Maja Lie](https://www.linkedin.com/in/maja-lie-b59a42146/)
 - [Zhen-Yen Chan](https://www.linkedin.com/in/zhen-yenchan/)
