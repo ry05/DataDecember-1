@@ -23,8 +23,6 @@ To take part, all you need to do is follow 3 simple steps:
 **Contributors**  
 #DataDecember has been conceived, operationalized and fueled by the data-related interests of some of us at the society. We would love to have a chat with you if you are interested!
 
-```markdown
-
 - [Ramshankar Yadhunath](https://www.linkedin.com/in/ramshankar-yadhunath-324a99155/)
 - [Maja Lie](https://www.linkedin.com/in/maja-lie-b59a42146/)
 - [Zhen-Yen Chan](https://www.linkedin.com/in/zhen-yenchan/)
@@ -41,8 +39,6 @@ Our very hardworking social media team
 - [Yanjun He (Hedwig)](https://www.linkedin.com/in/yanjun-h-231bb7176/)
 - [Rachel Gaby Aditya](https://www.linkedin.com/in/rachel-gaby-aditya-153ab71b9/)
 - [Isaac Chin](https://www.linkedin.com/in/isaacchinhx/)
-
-```
 
 ## Week 1: Data Science Fundamentals
 
