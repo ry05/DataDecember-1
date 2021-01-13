@@ -44,6 +44,14 @@ Our very hardworking social media team
 
 ## Week 1: Data Science Fundamentals
 
+**Topics covered this Week**  
+
+1. What is Data Science?
+2. The Relevance of Data Science Today
+3. The Different Components of Data Science
+4. Common Terms You Would Encounter in your Data Journey
+5. Data Science in the Real World
+
 **Day 1: What is Data Science?**
 
 *Author: Ramshankar Yadhunath*  
@@ -219,6 +227,14 @@ When I was a beginner, I was interested in cryptography, health economics, and e
 
 ## Week 2: Statistics and Math
 
+**Topics covered this Week** 
+
+1. Descriptive Statistics
+2. Inferential Statistics I
+3. Inferential Statistics II
+4. Statistical Tests
+5. Linear Algebra and Calculus
+
 **Day 6: Descriptive Statistics**
 
 *Author: Maja Lie*
@@ -326,6 +342,14 @@ Before you begin your journey of studying Linear Algebra and Calculus, I have to
 3. [Introduction to Mathematics in Data Science (contains many follow-up links)](https://towardsdatascience.com/mathematics-for-data-science-e53939ee8306)
 
 ## Week 3: Computer Programming for Data Science
+
+**Topics covered this Week** 
+
+1. Brief Intro to Computer Programming
+2. The Data Science Stack - Python and R
+3. Brief Intro to sQL
+4. Microsoft Excel for Data Science
+5. Data Science on the Cloud
 
 **Day 11: Brief Intro to Computer Programming**
 
@@ -510,6 +534,14 @@ There are no definitive guides to data science on the cloud, given the breadth o
 Finally, watch out for those AWS charges - [Silicon Valley S04E04](https://www.youtube.com/watch?v=uyIlAO390v4)
 
 ## Week 4: Working on a Data Science Project
+
+**Topics covered this Week** 
+
+1. Problem Formulation and Data Acquisition
+2. Data Cleaning
+3. Data Exploration
+4. Building Models
+5. Presentation of Your Project
 
 **Day 16: Problem Formulation and Data Acquisition**
 
