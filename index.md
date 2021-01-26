@@ -1,6 +1,6 @@
 # Welcome to #DataDecember
 
-We know you love data! And we believe you must have a comfortable start in your journey into data science. Say hello to #DataDecember, a 20-day initiative by [LSE’s Data Science Society]([LSESU Data Science Society (dsatlse.github.io)](https://dsatlse.github.io/)) to provide high-quality, beginner-friendly material to pick up data science concepts.
+We know you love data! And we believe you must have a comfortable start in your journey into data science. Say hello to #DataDecember, a 20-day initiative by [LSE’s Data Science Society](https://dsatlse.github.io/) to provide high-quality, beginner-friendly material to pick up data science concepts.
 
 **We value your time as much as we value ours**. That means our resources will not involve articles that lack an important learning point. Also, all the material we provide will be what we have already learnt from and summarised. So, you actually are learning from other learners who are able to identify the exact roadblocks you might hit as beginners. 
 
